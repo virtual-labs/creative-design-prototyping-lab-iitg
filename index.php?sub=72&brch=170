@@ -1,0 +1,101 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Creative Design, Prototyping & Experiential Simulation In Human Computer Interaction (HCI) : Other Laboratories (Design & Humanities) : IIT GUWAHATI Virtual Lab </title>  <META NAME="description" CONTENT= "Human Computer Interaction (HCI) is the study, planning and design of the interaction between people and computers. It is often regarded as the intersection of computer science, behavioral sciences, design and other fields of study. Experiments in this lab focus on understanding the theoretical basis of decision making while designing computer screens, displays and product interfaces. These experiments aim to make students understand underlying theory of user centered interface design."><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"><link rel="shortcut icon" type="image/x-icon" href="theme/iitg/images/favicon.ico">
+<link href="theme/iitg/css/main.css" rel="stylesheet" type="text/css"/>
+ <style type="text/css">
+.slideshow { margin: auto; }
+</style>
+
+<!-- include jQuery library -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/top_up-min.js"></script>
+
+<!-- include Cycle plugin -->
+<script type="text/javascript" src="js/jquery.cycle.lite.min.js"></script>
+
+</head>
+<body bgcolor="#FFFFFF">
+<div id="head_box" style="width:1024px; margin-left:auto; margin-right:auto;">
+<div id="header_main" align="center"><img align="right" style="padding-right:20px; margin-top:8px;" src="theme/iitg/images/logo.png"/></div>
+ <div id="header"  >      
+		<div class="menu">   
+        <ul><li><a href="index.php">Home</a></li><li><a href="?pg=topMenu&id=5">Download  </a></li><li><a href="?pg=topMenu&id=6">Slot Booking  </a></li><li><a href="?pg=topMenu&id=41">Feedback.  </a></li><li><a href="?pg=forum">Forum</a></li><li><a href="?pg=topMenu&id=108">Contact us</a></li><li><a href="javascript: authenticate()">Login</a></li></ul>		<div class="clear"></div>        
+		</div>
+        <div class="searchbox">								
+		<form action="http://iitg.vlab.co.in/" id="cse-search-box">
+		<div>
+		<input type="hidden" name="pg" value="bindex" />
+		<input type="hidden" name="bsub" value="search" />
+		<input type="hidden" name="lan" value="en-IN" />
+		<input type="hidden" name="cx" value="008976432297318053942:3gnilsveije" />
+		<input type="hidden" name="cof" value="FORID:11" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" size="15" />
+		<input class="srchButton" type="submit" name="sa" value="Search" />
+		</div>
+		</form>
+		</div> </div></div>
+<div align="left" style="position: relative; margin:auto; width: 1024px; background-color:#e3f2fc">
+<table width="100%" border="0">
+<tr><td width="50%" align="left" valign="top"><div class="breadcum">you are here-><a href="?">home</a>-><a href="?sub=72">Other Laboratories (Design & Humanities)</a>-><a href="?sub=72&brch=170">Creative Design, Prototyping & Experiential Simulation In Human Computer Interaction (HCI)</a></div></td>
+<td width="45%" align="right"> </td>
+<td width="5%" align="left"></td></tr>
+</table>
+<div class="title">Creative Design, Prototyping & Experiential Simulation In Human Computer Interaction (HCI)</div><br><div class="clstopicDesc">Human Computer Interaction (HCI) is the study, planning and design of the interaction between people and computers. It is often regarded as the intersection of computer science, behavioral sciences, design and other fields of study. Experiments in this lab focus on understanding the theoretical basis of decision making while designing computer screens, displays and product interfaces. These experiments aim to make students understand underlying theory of user centered interface design.</div><br /><div id="tblExperiment"><table width="100%"><tr><td valign="top" width='1%'><img src='images/temp.gif' width='48' height='48' /></td><td><a href='?sub=72&brch=170&sim=743&cnt=2943'>Introduction</a><br><span class="clsDescription">A brief introduction to this lab, its simulation based experiments, the contributors and other supplementary resources.</span></td></tr><tr><td valign="top" width='1%'><img src='images/temp.gif' width='48' height='48' /></td><td><a href='?sub=72&brch=170&sim=744&cnt=1'>1. Serial Position  Effect</a><br><span class="clsDescription">Refers to the effect on recall accuracy as a function of a menu item's position within a menu list.</span></td></tr><tr><td valign="top" width='1%'><img src='images/temp.gif' width='48' height='48' /></td><td><a href='?sub=72&brch=170&sim=750&cnt=1'>2. Weber's Law</a><br><span class="clsDescription">A just-noticeable difference in a stimulus is proportional to the magnitude of the original stimulus.</span></td></tr><tr><td valign="top" width='1%'><img src='images/temp.gif' width='48' height='48' /></td><td><a href='?sub=72&brch=170&sim=751&cnt=1'>3. Sensitivity, Errors And Task Complexity Measurements For Pointing Devices</a><br><span class="clsDescription">Measuring mouse controlling ability in terms of time and task complexity.</span></td></tr><tr><td valign="top" width='1%'><img src='images/temp.gif' width='48' height='48' /></td><td><a href='?sub=72&brch=170&sim=762&cnt=1'>4. Fitts Law</a><br><span class="clsDescription">The time required to move a pointer to the target is a function of the target size and distance to the target.</span></td></tr><tr><td valign="top" width='1%'><img src='images/temp.gif' width='48' height='48' /></td><td><a href='?sub=72&brch=170&sim=764&cnt=1'>5. Mobile Keypad Design</a><br><span class="clsDescription">Design issues and usefulness of different mobile phone keypad layouts.
+</span></td></tr><tr><td valign="top" width='1%'><img src='images/temp.gif' width='48' height='48' /></td><td><a href='?sub=72&brch=170&sim=769&cnt=1'>6. Hick Hyman's Law</a><br><span class="clsDescription">The time taken to make the decision in selecting an item is proportional to the number of items presented.</span></td></tr><tr><td valign="top" width='1%'><img src='images/temp.gif' width='48' height='48' /></td><td><a href='?sub=72&brch=170&sim=770&cnt=1'>7. GOMS Model</a><br><span class="clsDescription">Comparison of alternative user interface designs based on GOMS Model.</span></td></tr><tr><td valign="top" width='1%'><img src='images/temp.gif' width='48' height='48' /></td><td><a href='?sub=72&brch=170&sim=862&cnt=1'>8. Consistency and Inconsistency In Interaction</a><br><span class="clsDescription">Consistency in presentation, behavior and interaction to achieve error-free interaction.</span></td></tr><tr><td valign="top" width='1%'><img src='images/temp.gif' width='48' height='48' /></td><td><a href='?sub=72&brch=170&sim=863&cnt=1'>9. The Visual Coding Of Information In Short Term Memory (STM)</a><br><span class="clsDescription">Finding evidence that information is stored in Short Term Memory (STM) by means of visual code.</span></td></tr><tr><td valign="top" width='1%'><img src='images/temp.gif' width='48' height='48' /></td><td><a href='?sub=72&brch=170&sim=1300&cnt=2815'>10. Color Theory</a><br><span class="clsDescription">Color Theory</span></td></tr><tr><td valign="top" width='1%'><img src='images/temp.gif' width='48' height='48' /></td><td><a href='?sub=72&brch=170&sim=1303&cnt=1'>11.  Card Sorting Technique</a><br><span class="clsDescription">Interactive tool for learning and performing card sorting</span></td></tr><tr><td valign="top" width='1%'><img src='images/temp.gif' width='48' height='48' /></td><td><a href='?sub=72&brch=170&sim=1313&cnt=1'>12. Usability Measurement Tool  for  E-Learning ( UMTEL ) </a><br><span class="clsDescription">This online measurement tool consists of six simple checklists that could be used by a novice evaluator to evaluate usability level of an e-learning  website.</span></td></tr><tr><td valign="top" width='1%'><img src='images/temp.gif' width='48' height='48' /></td><td><a href='?sub=72&brch=170&sim=1357&cnt=1'>13. Prototyping of TV Remote Control Panel</a><br><span class="clsDescription">This experiment teaches you to design a prototype of a TV Remote Control using the standard buttons provided.</span></td></tr><tr><td valign="top" width='1%'><img src='images/temp.gif' width='48' height='48' /></td><td><a href='?sub=72&brch=170&sim=1381&cnt=1'>14. Prototyping of Control Panel of Domestic Appliances</a><br><span class="clsDescription">This experiment teaches you to design prototypes for Washing Machine control panel and control panel for an Induction Stove.</span></td></tr><tr><td valign="top" width='1%'><img src='images/temp.gif' width='48' height='48' /></td><td><a href='?sub=72&brch=170&sim=1359&cnt=1'>15. Icons in Graphical User Interfaces(GUI)</a><br><span class="clsDescription">Icon design guidelines and design exercises. </span></td></tr><tr><td valign="top" width='1%'><img src='images/temp.gif' width='48' height='48' /></td><td><a href='?sub=72&brch=170&sim=1569&cnt=1'>16. Effect of Typography design on Readability</a><br><span class="clsDescription">Effect of different font types and sizes on readability.</span></td></tr><tr><td valign="top" width='1%'><img src='images/temp.gif' width='48' height='48' /></td><td><a href='?sub=72&brch=170&sim=1358&cnt=2839'>Case Studies</a><br><span class="clsDescription">Problem analysis, design methods and solutions for few typical cases.</span></td></tr></table></div>	 <div align="center">
+    </div>
+</div><div style="width:1024px; margin-left:auto; margin-right:auto;">
+	<div style="margin:auto; width: inherit; height:28px; background-color:#e3f2fc;" align="center">
+	<table width="100%" cellpadding="0" cellspacing="0" border="0">
+    	<tr>
+        	<td width="19" height="29"><img src="theme/iitg/images/foot_left.gif"/></td>
+            <td height="29" bgcolor="#0f8de1" align="center" style="color:#FFF;"><a href="http://virtual-labs.ac.in/licensing/" target="_new" style="color:#FFF">Copyright @ 2015 Under the NME ICT initiative of MHRD (Licensing Terms)</a></td>
+            <td width="19" height="29"><img src="theme/iitg/images/foot_right.gif"/></td>
+        </tr>
+    </table>
+</div>
+</div>
+<div align="center">&nbsp;Powered by <a style="border-bottom:none;" target="_blank" href="https://www.amrita.edu">Amrita</a><a style="border-bottom:none;" 
+target="_blank" href="https://www.amrita.edu/research/project/collaborative-and-accessible-platform-cap-distributed-content">Virtual Lab Collaborative Platform</a> [ Ver 00.3.2 ]</div>
+<script type="text/javascript" src="js/javascript_functions.js"></script>
+<!-- Piwik --> 
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://ahs.amrita.ac.in/logs/" : "http://ahs.amrita.ac.in/logs/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 2);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://ahs.amrita.ac.in/logs/piwik.php?idsite=2" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+<script type="text/javascript">
+var _gap = _gap || [];
+_gap.push(["_setAccount", "UA-254910-22"]); 
+_gap.push(["_trackPageview"]);
+_gap.push(["_gapTrackBounceViaTime", 20]); 
+_gap.push(["_gapTrackBounceViaScroll", 50]); 
+_gap.push(["_gapTrackReads", 30, 30]); 
+_gap.push(["_gapTrackLinkClicks"]);
+
+(function() {
+    var gap = document.createElement("script");
+    gap.async = true;
+    gap.type = "text/javascript";
+    gap.src = "/js/gap.min.js"; 
+
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(gap, s);
+})();
+</script>
+<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&lang=en"></script>
+<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box2&lang=en"></script>
+
+</body>
+</html>
+</div>
+
+

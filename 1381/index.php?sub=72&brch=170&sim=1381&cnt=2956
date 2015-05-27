@@ -1,0 +1,283 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>14. Prototyping of Control Panel of Domestic Appliances (Design Guidelines) : Creative Design, Prototyping & Experiential Simulation In Human Computer Interaction (HCI) : Other Laboratories (Design & Humanities) : IIT GUWAHATI Virtual Lab </title><META NAME="description" content="This experiment teaches you to design prototypes for Washing Machine control panel and control panel for an Induction Stove." /><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"><link rel="shortcut icon" type="image/x-icon" href="theme/iitg/images/favicon.ico">
+<link href="theme/iitg/css/main.css" rel="stylesheet" type="text/css"/>
+ <style type="text/css">
+.slideshow { margin: auto; }
+.title {
+	padding-left:0px !important;
+	}
+.breadcum {
+	margin-left:0px !important;
+	}
+</style>
+
+<!-- include jQuery library -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/top_up-min.js"></script>
+
+<!-- include Cycle plugin -->
+<script type="text/javascript" src="js/jquery.cycle.lite.min.js"></script>
+<link href="theme/iitg/css/tabs.css" rel="stylesheet" type="text/css"><link rel="stylesheet" type="text/css" href="js/grid/gt_grid.css" />
+<script type="text/javascript" src="js/grid/gt_msg_en.js"></script>
+<script type="text/javascript" src="js/src/gt_const.js"></script>
+<script type="text/javascript" src="js/grid/gt_grid_all.js"></script>
+<script type="text/javascript" src="js/grid/flashchart/fusioncharts/FusionCharts.js"></script>
+</head>
+<body bgcolor="#FFFFFF">
+
+<table id="expandables" align="center" cellpadding="0" cellspacing="0">
+	<tr>
+    	<td bgcolor="#deeefb">
+  		<div id="header_main" align="center"><img align="right" style="padding-right:20px; margin-top:8px;" src="theme/iitg/images/logo.png"/></div>
+ <div id="header"  >      
+		<div class="menu">   
+        <ul><li><a href="index.php">Home</a></li><li><a href="?pg=topMenu&id=5">Download  </a></li><li><a href="?pg=topMenu&id=6">Slot Booking  </a></li><li><a href="?pg=topMenu&id=41">Feedback.  </a></li><li><a href="?pg=forum">Forum</a></li><li><a href="?pg=topMenu&id=108">Contact us</a></li><li><a href="javascript: authenticate()">Login</a></li></ul>		<div class="clear"></div>        
+		</div>
+        <div class="searchbox">								
+		<form action="http://iitg.vlab.co.in/" id="cse-search-box">
+		<div>
+		<input type="hidden" name="pg" value="bindex" />
+		<input type="hidden" name="bsub" value="search" />
+		<input type="hidden" name="lan" value="en-IN" />
+		<input type="hidden" name="cx" value="008976432297318053942:3gnilsveije" />
+		<input type="hidden" name="cof" value="FORID:11" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" size="15" />
+		<input class="srchButton" type="submit" name="sa" value="Search" />
+		</div>
+		</form>
+		</div> </div>        </td>
+    </tr>
+    <tr>
+    	<td>
+    	<table align="center" cellpadding="0" cellspacing="0" style="min-width:1024px;">
+        	<tr>
+            	<td bgcolor="#e8f2fb" style="color:#e8f2fb;">.</td>
+            	<td bgcolor="#e8f2fb" align="left"><div class="breadcum">you are here-><a href="?">home</a>-><a href="?sub=72">Other Laboratories (Design & Humanities)</a>-><a href="?sub=72&brch=170">Creative Design, Prototyping & Experiential Simulation In Human Computer Interaction (HCI)</a>-><a href="">14. Prototyping of Control Panel of Domestic Appliances</a></div></td>
+                <td bgcolor="#e8f2fb" align="right"></td>
+                <td bgcolor="#e8f2fb" align="right"></td>
+                <td bgcolor="#e8f2fb" style="color:#e8f2fb;">.</td>
+            </tr>
+            <tr>
+            	<td bgcolor="#e8f2fb" style="color:#e8f2fb;">.</td>
+            	<td colspan="3" bgcolor="#e8f2fb" style="white-space:nowrap;"><div class="title">14. Prototyping of Control Panel of Domestic Appliances</div></td>
+                <td bgcolor="#e8f2fb" style="color:#e8f2fb;">.</td>
+            </tr>
+            <tr>
+            	<td height="89" bgcolor="#e8f2fb" style="color:#e8f2fb;">
+                	.
+                </td>
+            	<td colspan="3" rowspan="2"><div id="div1Style" class="div1Style" ><div id="backGroundBG" class="bg"><table id="tabtable" border="0px" cellpadding="0px" cellspacing="0px" width="100%"><tr><td id="lcurve" width="21px" height="145px"></td><td id="mcurve" rowspan="2"><div id="ddtabs2" class="glowingtabs"><ul><li class=""><a href="?sub=72&brch=170&sim=1381&cnt=1"><span><div id="tabspan" ><img id="tabimg" src="theme/iitg/images/tab_icon_image/content_1.png" alt=""/></div><div id="tab_name" >Theory&nbsp;</div></span></a></li><li class="current"><a href="?sub=72&brch=170&sim=1381&cnt=2956"><span><div id="tabspan" ><img id="tabimg" src="theme/iitg/images/tab_icon_image/content_2.png" alt=""/></div><div id="tab_name" >Design Guidelines&nbsp;</div></span></a></li><li class=""><a href="?sub=72&brch=170&sim=1381&cnt=2893"><span><div id="tabspan" ><img id="tabimg" src="theme/iitg/images/tab_icon_image/content_1.png" alt=""/></div><div id="tab_name" >Objective&nbsp;</div></span></a></li><li class=""><a href="?sub=72&brch=170&sim=1381&cnt=2"><span><div id="tabspan" ><img id="tabimg" src="theme/iitg/images/tab_icon_image/content_2.png" alt=""/></div><div id="tab_name" >Procedure&nbsp;</div></span></a></li><li class=""><a href="?sub=72&brch=170&sim=1381&cnt=4"><span><div id="tabspan" ><img id="tabimg" src="theme/iitg/images/tab_icon_image/content_4.png" alt=""/></div><div id="tab_name" >Simulator&nbsp;</div></span></a></li><li class=""><a href="?sub=72&brch=170&sim=1381&cnt=2894"><span><div id="tabspan" ><img id="tabimg" src="theme/iitg/images/tab_icon_image/content_94.png" alt=""/></div><div id="tab_name" >Quiz&nbsp;</div></span></a></li><li class=""><a href="?sub=72&brch=170&sim=1381&cnt=5"><span><div id="tabspan" ><img id="tabimg" src="theme/iitg/images/tab_icon_image/content_5.png" alt=""/></div><div id="tab_name" >Assignment&nbsp;</div></span></a></li><li class=""><a href="?sub=72&brch=170&sim=1381&cnt=6"><span><div id="tabspan" ><img id="tabimg" src="theme/iitg/images/tab_icon_image/content_6.png" alt=""/></div><div id="tab_name" >Reference&nbsp;</div></span></a></li><li class=""><a href="?sub=72&brch=170&sim=1381&cnt=7"><span><div id="tabspan" ><img id="tabimg" src="theme/iitg/images/tab_icon_image/content_7.png" alt=""/></div><div id="tab_name" >Feedback&nbsp;</div></span></a></li></ul></div></td><td id="rcurve" width="21px" height="145px"></td></tr><tr><td></td><td></td></tr></table></div><div class="divContent"><p class="MsoNormal" style="line-height: normal;">&nbsp;</p>
+<h1 style="text-align: right;"><a href="http://iitg.vlab.co.in/?sub=72&amp;brch=170"><span style="font-size: 14pt; line-height: 115%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;">Back to HCI Lab Home Page</span></a></h1>
+<p>&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal; text-align: justify;"><span style="font-size:12.0pt;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-fareast-language:EN-IN"> <br>
+</span><b style="mso-bidi-font-weight:normal"><span style="font-size:18.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-US;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA">Guidelines for selecting control elements and panel layout</span></b></p>
+<p style="text-align: justify;" class="MsoNormal"><span style="font-size:
+14.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;" lang="EN-US"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></p>
+<p style="text-align: justify;" class="MsoNormal"><span style="font-size:14.0pt;line-height:115%;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:Calibri;
+mso-fareast-theme-font:minor-latin;mso-ansi-language:EN-US;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA">Following are the guidelines to be  followed while selecting elements and laying out the configuration  (designing) of control panels.</span><span style="font-size: 14pt; line-height: 115%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;" lang="EN-US"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></p>
+<p class="MsoListParagraphCxSpFirst" style="text-indent: -18pt; text-align: left;"><span style="font-size: 14pt; line-height: 115%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;" lang="EN-US"><span style="">&nbsp;&nbsp;&nbsp; </span></span></p>
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:20.25pt;margin-bottom:.0001pt;mso-add-space:auto;text-align:
+justify;text-justify:inter-ideograph;text-indent:-.25in;line-height:normal;
+mso-list:l0 level1 lfo1"><span style="font-size:14.0pt;
+mso-bidi-font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:
+&quot;Times New Roman&quot;"><span style="mso-list:Ignore">1.<span style="font:7.0pt &quot;Times New Roman&quot;"> </span></span></span><b style="mso-bidi-font-weight:normal"><span style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:
+&quot;Times New Roman&quot;">Select control element suitable for the task: </span></b><span style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:
+&quot;Times New Roman&quot;">Select control elements which suit to the  task, satisfy ergonomic demands and are aesthetic in nature. Higher the  usability more efficient is the task performance.<span style="mso-spacerun:yes">&nbsp; </span>Task frequency and control-response ratio (C/R = movement of control for getting <span style="mso-spacerun:yes">&nbsp;</span>valid system response of feedback) are to be kept in mind while choosing the elements carefully.</span></p>
+<p class="MsoListParagraph" style="margin: 0in 0in 0.0001pt 20.25pt; text-align: justify; text-indent: -0.25in; line-height: normal;">&nbsp;</p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;text-justify:inter-ideograph;text-indent:-.25in;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">&nbsp;</span></p>
+<p><span style="font-size: 14pt; line-height: 115%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;">2.&nbsp; </span><b style="mso-bidi-font-weight:normal"><span style="font-size:14.0pt;
+line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA">Organize control elements in a logical grid</span></b><span style="font-size:14.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-US;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA">. A good control panel or user interface has to fulfill</span></p>
+<p><span style="font-size: 14pt; line-height: 115%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;">&nbsp;&nbsp;&nbsp;&nbsp; ergonomics,</span><span style="font-size: 14pt; line-height: 115%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"> aesthetics and engineering requirements.</span></p>
+<p class="MsoListParagraph" style="margin: 0in 0in 0.0001pt 20.25pt; text-align: justify; text-indent: -0.25in; line-height: normal;">&nbsp;</p>
+<p style="text-align: justify;" class="MsoNormal"><span style="font-size:14.0pt;line-height:115%;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;" lang="EN-US">&nbsp;<img alt="" src="/userfiles/7/image/grids.png" height="97" width="400"></span></p>
+<p style="text-align: justify;" class="MsoListParagraphCxSpFirst"><span style="font-size:14.0pt;
+line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;" lang="EN-US">&nbsp;</span>&nbsp;</p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;text-justify:inter-ideograph;line-height:normal"><span style="font-size:14.0pt;line-height:115%;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">There are three different principles on which a panel layout is determined. They are (a) operational sequence</span></p>
+<p class="MsoNormal" style="text-align: justify; line-height: normal;"><span style="font-size: 14pt; line-height: 115%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;">(b) frequency of use and (c) centre of attention. </span><br>
+&nbsp;</p>
+<p class="MsoNormal" style="text-align: justify; line-height: normal;"><b style="mso-bidi-font-weight:normal"><span style="font-size:14.0pt;
+line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA">Operational sequence principle</span></b><span style="font-size:14.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-US;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA">:<span style="mso-spacerun:yes">&nbsp; </span>If  there is a fixed sequence of operations in an operating cycle then the  control elements are laid in the same sequence from either left or  right. Figure below shows (A) a panel with random layout and sequence of  operations and (B) another refined panel layout that uses operational  sequence principle.</span></p>
+<p class="MsoNormal" style="text-align: justify; line-height: normal;">&nbsp;</p>
+<p class="MsoListParagraphCxSpLast" style="margin-left: 40px; text-indent: -36pt; text-align: left;"><img alt="" src="/userfiles/7/image/4_a_b%281%29.png" height="205" width="600">&nbsp;</p>
+<p class="MsoListParagraphCxSpFirst" style="margin-left: 40px; text-indent: -36pt; text-align: justify;">&nbsp;<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;"><br>
+</span></p>
+<p><b style="mso-bidi-font-weight:normal"><span style="font-size:14.0pt;
+line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA">Frequency of use principle</span></b><span style="font-size:14.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-US;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA">: Some panel controls are used more  frequently than others. In this layout elements are grouped into more  frequently used controls and less frequently used controls. The more  frequently used controls are colored prominently and put in a visually  discernable cluster to distinguish easily as well as placed in a more  convenient position to optimize human performance.</span></p>
+<p>&nbsp;</p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;text-justify:inter-ideograph;line-height:normal"><b style="mso-bidi-font-weight:normal"><span style="font-size:14.0pt;font-family:
+&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;">Centre of attention principle</span></b><span style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">:<span style="mso-spacerun:yes">&nbsp; </span>Some  panel elements need to be always a center of attention like alarm  displays, important indicators and emergency controls. In this layout  such elements are placed at the centre of the panel before fixing other  elements around them.</span></p>
+<p class="MsoNormal" style="text-align: justify; line-height: normal;">&nbsp;</p>
+<p><span style="font-size:14.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-US;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA">In some equipments such as medical or communication a combination of the above three principles can be employed.</span></p>
+<p>&nbsp;</p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:88.5pt;text-align:justify;text-justify:inter-ideograph;line-height:
+normal"><span style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">&nbsp;</span></p>
+<p class="MsoListParagraph" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:.25in;mso-add-space:auto;text-align:justify;text-justify:inter-ideograph;
+text-indent:-.25in;line-height:normal;mso-list:l0 level1 lfo1"><span style="font-size: 14pt; line-height: 115%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;">3. </span><b style="mso-bidi-font-weight:normal"><span style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:
+&quot;Times New Roman&quot;">Make the panel aesthetically appealing</span></b><span style="font-size:14.0pt;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;">: The creative design principle of <i style="mso-bidi-font-style:normal">"form follows function" </i>and <i style="mso-bidi-font-style:normal">"Gestalt’s principles of visual </i></span><span style="font-size: 14pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"><i style="">order and beauty"</i> form the basis of aesthetic decisions. Contrary to&nbsp;belief aesthetic decisions are not taken</span> <span style="font-size: 14pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;">based</span> <span style="font-size: 14pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;">on someone’s liking or fancy tastes. Control panels are not art pieces.</span></p>
+<p class="MsoListParagraph" style="margin-left: 0.25in; text-align: justify; text-indent: -0.25in; line-height: normal;">&nbsp;<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:
+&quot;Times New Roman&quot;">&nbsp;</span></p>
+<p class="MsoListParagraph" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:1.0in;mso-add-space:auto;text-align:justify;text-justify:inter-ideograph;
+text-indent:-.5in;line-height:normal;mso-list:l0 level2 lfo1"><span style="font-size:14.0pt;mso-bidi-font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;"><span style="mso-list:Ignore">&nbsp;(i)<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">Elements should be placed in a grid to be visually appealing and organized.</span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:.5in;text-align:justify;text-justify:inter-ideograph;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">&nbsp;</span></p>
+<p class="MsoListParagraph" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:1.0in;mso-add-space:auto;text-align:justify;text-justify:inter-ideograph;
+text-indent:-.5in;line-height:normal;mso-list:l0 level2 lfo1"><span style="font-size:14.0pt;mso-bidi-font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;"><span style="mso-list:Ignore">(ii)<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">Symmetry is often  desirable but is likely to make the panel look predictive and boring.  Designers can use asymmetry of placement to bring in an element of</span><span style="font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;"> </span><span style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">aesthetic visual interest. Figure below shows example of (A) symmetrical and (B) asymmetrical</span><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:
+&quot;Times New Roman&quot;"> </span><span style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">configuration of control panel elements.</span></p>
+<p class="MsoListParagraph" style="margin-left: 0.25in; text-align: justify; text-indent: -0.25in; line-height: normal;">&nbsp;&nbsp;&nbsp;</p>
+<table border="1" cellpadding="1" cellspacing="1" align="center" width="200">
+    <tbody>
+        <tr>
+            <td style="text-align: justify;"><img alt="" src="/userfiles/7/image/uelabs/Remote%20Control%20Panel/Fig_11_Symmetry%20in%20layout.png" height="217" align="absMiddle" width="400"></td>
+        </tr>
+    </tbody>
+</table>
+<p class="MsoListParagraphCxSpLast" style="text-indent: -18pt; text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;"><br>
+&nbsp; <span style="font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;" lang="EN-US">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt;line-height:115%;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;" lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (iii)&nbsp;&nbsp;&nbsp; There is a need to leave sufficient visual space around each element.<span style="mso-spacerun:yes">&nbsp; </span>Very closely placed</span></p>
+<p class="MsoNormal"><span style="font-size: 14pt; line-height: 115%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;" lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; elements give a visual message of being overcrowded and a feeling of error during</span></p>
+<p class="MsoNormal"><span style="font-size: 14pt; line-height: 115%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;" lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operation creeps in.</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p><span style="font-size:14.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;" lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (iv)&nbsp;&nbsp;&nbsp; Simple fonts should be used&nbsp; for&nbsp; naming / labeling.&nbsp; Curved typefaces or colorful </span></p>
+<p class="MsoNormal" style="margin-left: 52.5pt;"><span style="font-size: 14pt; line-height: 115%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;" lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp; flamboyant alphabets and numerals distract and should be avoided. Simple straight <span style="mso-spacerun:yes">&nbsp;</span>fonts of</span></p>
+<p class="MsoNormal" style="margin-left: 52.5pt;"><span style="font-size: 14pt; line-height: 115%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;" lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp; size that is easy to read should be preferred. Some examples of recommended &amp; not</span></p>
+<p class="MsoNormal" style="margin-left: 52.5pt;"><span style="font-size: 14pt; line-height: 115%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;" lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp; recommended typefaces are shown below.</span></p>
+<p class="MsoNormal" style="margin-left: 52.5pt;">&nbsp;</p>
+<p class="MsoNormal" style="margin-left: 52.5pt;">&nbsp;</p>
+<table border="1" cellpadding="1" cellspacing="1" align="center" width="200">
+    <tbody>
+        <tr>
+            <td><img alt="" src="/userfiles/7/image/uelabs/Remote%20Control%20Panel/fontfaces.png" height="175" align="absMiddle" width="532"></td>
+        </tr>
+    </tbody>
+</table>
+<p class="MsoNormal" style="margin-left: 52.5pt;">&nbsp;</p>
+<p class="MsoNormal" style="margin-left: 52.5pt;">&nbsp;</p>
+<p class="MsoListParagraphCxSpFirst" style="margin-left: 40px; text-indent: -36pt;"><span style="font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:115%;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;" lang="EN-US"><span style="mso-list:Ignore">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (v) &nbsp; &nbsp;&nbsp;<span style="font:7.0pt &quot;Times New Roman&quot;"> </span></span></span><span style="font-size:14.0pt;mso-bidi-font-size:11.0pt;
+line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;" lang="EN-US">Only sober background<span style="mso-spacerun:yes">&nbsp; </span>colors that aid in reading the displays and labels in low light</span></p>
+<p class="MsoListParagraphCxSpFirst" style="margin-left: 88.5pt; text-indent: -36pt;"><span style="font-size: 14pt; line-height: 115%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;" lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp; conditions should be used.</span></p>
+<p class="MsoListParagraphCxSpLast" style="margin-left:88.5pt;mso-add-space:auto"><span style="font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:115%;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;" lang="EN-US">&nbsp;</span></p>
+<p class="MsoNormal" style="margin-left: 52.5pt;">&nbsp;</p>
+<p class="MsoNormal" style="margin-left: 52.5pt;">&nbsp;</p>
+<p style="margin-left: 88.5pt; text-indent: -36pt; text-align: justify;" class="MsoListParagraphCxSpMiddle">&nbsp;</p>
+<hr>
+<p style="text-align: justify;"><span style="color: rgb(153, 51, 0);">&nbsp;<span style="font-size: medium;"><span style="font-size: small;">To proceed&nbsp; further&nbsp; click on the <strong>OBJECTIVE </strong>tab on the top or to exit this experiment&nbsp; click on <strong>HOME</strong>&nbsp; on the top.</span></span></span></p>
+<p style="text-align: justify;">&nbsp;</p></div></div></td>
+                <td height="89" bgcolor="#e8f2fb" id="top_rightc" style="color:#e8f2fb;">.....</td>
+            </tr>
+            <tr>
+            	<td width="23" id="side_left" style="color:#e8f2fb;">.....</td>
+                <td width="23" id="side_right" style="color:#e8f2fb;">.....</td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+    <tr>
+    	<td><div style="margin:auto; width: inherit; height:28px; background-color:#e3f2fc;" align="center">
+	<table width="100%" cellpadding="0" cellspacing="0" border="0">
+    	<tr>
+        	<td width="19" height="29"><img src="theme/iitg/images/foot_left.gif"/></td>
+            <td height="29" bgcolor="#0f8de1" align="center" style="color:#FFF;"><a href="http://virtual-labs.ac.in/licensing/" target="_new" style="color:#FFF">Copyright @ 2015 Under the NME ICT initiative of MHRD (Licensing Terms)</a></td>
+            <td width="19" height="29"><img src="theme/iitg/images/foot_right.gif"/></td>
+        </tr>
+    </table>
+</div>
+</div>
+<div align="center">&nbsp;Powered by <a style="border-bottom:none;" target="_blank" href="https://www.amrita.edu">Amrita</a><a style="border-bottom:none;" 
+target="_blank" href="https://www.amrita.edu/research/project/collaborative-and-accessible-platform-cap-distributed-content">Virtual Lab Collaborative Platform</a> [ Ver 00.3.2 ]</div>
+<script type="text/javascript" src="js/javascript_functions.js"></script>
+<!-- Piwik --> 
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://ahs.amrita.ac.in/logs/" : "http://ahs.amrita.ac.in/logs/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 2);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://ahs.amrita.ac.in/logs/piwik.php?idsite=2" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+<script type="text/javascript">
+var _gap = _gap || [];
+_gap.push(["_setAccount", "UA-254910-22"]); 
+_gap.push(["_trackPageview"]);
+_gap.push(["_gapTrackBounceViaTime", 20]); 
+_gap.push(["_gapTrackBounceViaScroll", 50]); 
+_gap.push(["_gapTrackReads", 30, 30]); 
+_gap.push(["_gapTrackLinkClicks"]);
+
+(function() {
+    var gap = document.createElement("script");
+    gap.async = true;
+    gap.type = "text/javascript";
+    gap.src = "/js/gap.min.js"; 
+
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(gap, s);
+})();
+</script>
+<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&lang=en"></script>
+<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box2&lang=en"></script>
+
+</body>
+</html>
+</td>
+    </tr>
+</table>
+</body>
+</html>
+
