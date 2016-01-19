@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inventory>
+	<inventoryItem> 
+		<inventoryItemImage>flashmo_205_stack_gallery.jpg</inventoryItemImage> 
+		<inventoryItemTitle>Item No. 1 (205 stack gallery)</inventoryItemTitle> 
+		<inventoryItemDescription>Stack Gallery is a flash xml photo gallery that supports HTML CSS in photo description textfield. It can be integrated with any flash template in actionscript 3.</inventoryItemDescription> 
+		<url>http://www.flashmo.com/preview/flashmo_205_stack_gallery</url> 
+		<target>_self</target> 
+	</inventoryItem> 
+	<inventoryItem> 
+		<inventoryItemImage>flashmo_205_stack_gallery.jpg</inventoryItemImage> 
+		<inventoryItemTitle>Item No. 1 (205 stack gallery)</inventoryItemTitle> 
+		<inventoryItemDescription>Stack Gallery is a flash xml photo gallery that supports HTML CSS in photo description textfield. It can be integrated with any flash template in actionscript 3.</inventoryItemDescription> 
+		<url>http://www.flashmo.com/preview/flashmo_205_stack_gallery</url> 
+		<target>_self</target> 
+	</inventoryItem> 
+	<inventoryItem> 
+		<inventoryItemImage>flashmo_205_stack_gallery.jpg</inventoryItemImage> 
+		<inventoryItemTitle>Item No. 1 (205 stack gallery)</inventoryItemTitle> 
+		<inventoryItemDescription>Stack Gallery is a flash xml photo gallery that supports HTML CSS in photo description textfield. It can be integrated with any flash template in actionscript 3.</inventoryItemDescription> 
+		<url>http://www.flashmo.com/preview/flashmo_205_stack_gallery</url> 
+		<target>_self</target> 
+	</inventoryItem> 
+	<inventoryItem> 
+		<inventoryItemImage>flashmo_205_stack_gallery.jpg</inventoryItemImage> 
+		<inventoryItemTitle>Item No. 1 (205 stack gallery)</inventoryItemTitle> 
+		<inventoryItemDescription>Stack Gallery is a flash xml photo gallery that supports HTML CSS in photo description textfield. It can be integrated with any flash template in actionscript 3.</inventoryItemDescription> 
+		<url>http://www.flashmo.com/preview/flashmo_205_stack_gallery</url> 
+		<target>_self</target> 
+	</inventoryItem> 
+	
+	
+	
+
+	
+	
+</inventory>

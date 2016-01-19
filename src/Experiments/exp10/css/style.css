@@ -1,0 +1,286 @@
+/* This is the css style that will make your text blink.*/
+.blinkytext {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 14pt;
+     font-style: normal;
+     color: red;
+     text-align: center;
+}
+
+
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+   font-family: Helvetica;
+   font-size: 12px;
+   color:#2d3536;
+   position: relative;
+}
+
+img{
+   border: none;
+}
+
+a{
+   color: blue;
+   font-size: 12px;
+   text-decoration: none;
+}
+
+a:hover{
+   color: red;
+   font-size: 12px;
+   text-decoration: underline;
+}
+
+
+.D5 a{
+   color: blue;
+   font-size: 10px;
+   text-decoration: underline;
+}
+
+.container{
+   width: 1074px;
+   height: 700px;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+
+.container .workspace{
+   width: 804px;
+   height: 700px;
+   float: left;
+   border: 14px solid black;
+}
+
+.container .toolbox{
+   width: 228px;
+   height: 728px;
+   float: left;
+   background: url(images/main-bg.gif);   
+}
+
+.himg{
+   width: 80px;
+   height: 80px;
+   float: left;
+}
+
+.himgs{
+   width: 300px;
+   height: 80px;
+   float: right;
+}
+
+.D1{
+   width: 790px;
+   height: 80px;
+   border:1px solid gray;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 5px;
+   margin-top: 10px;
+}
+
+.D2{
+   width: 790px;
+   height: 15px;
+   text-align: center;
+   border: 1px solid gray;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+   padding: 5px;
+   font-size: 14px;
+}
+
+.content{
+   width: 800px;
+   height: 310px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+}
+
+.D3{
+   width: 490px;
+   height: 300px;
+   border:1px solid gray;
+   float: left;
+   text-align: justify;
+   padding: 5px;
+}
+
+.images{
+   width: 280px;
+   height: 300px;
+   margin-left: 10px;
+   margin-right: 5px;
+   float: left;
+   text-align: justify;
+}
+
+.DI{
+   width: 290px;
+   height: 150px;
+   float: left;
+   text-align: justify;
+   margin-bottom: 10px;
+}
+
+.D4{
+   width: 790px;
+   height: auto;
+   border:1px solid gray;
+   text-align: justify;
+   padding: 5px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+}
+
+.D5{
+   width: 790px;
+   height: 40px;
+   border: 1px solid gray;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+   padding: 5px;
+   text-align: center;
+}
+
+
+.btn{
+   width: 200px;
+   height: 680px;
+   margin-left: 14px;
+   margin-right: 14px;
+   margin-bottom: 14px;
+   float: left;
+   font-size: 18px;
+   z-index: 1;
+   background: url("images/main-bg.gif");
+}
+
+.btn .txt{
+   width: 180px;
+   height: 300px;
+   padding: 5px;
+   border: 2px #663300 solid;
+   margin-top: 10px;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: white;
+}
+
+.btn .items{
+   width: 180px;
+   height: 50px;
+   margin-left: auto;
+   margin-right: auto;
+   float: left;
+   background-color: white;
+}
+
+.input{
+   width: 70px;
+   height: 28px;
+   font-size: 24px;
+   text-align: left;
+   border: 2px solid grey;
+}
+
+.btn .bcolor{
+   width: 180px;
+   height: 300px;
+   padding: 5px;
+   border: 2px #663300 solid;
+   margin-top: 10px;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: white;
+}
+
+.btn .setcolor{
+   width: auto;
+   height: 50px;
+   display:block;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: grey;
+   font-size:8pt;
+   border-width: 6px;
+}
+   
+.btn .back{
+   width: auto;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.hlp{
+   width: auto;
+   height: auto;
+   margin-right: -20px;
+   margin-top: 10px;
+   z-index: 10;
+}
+
+
+/*Light Box*/
+.black_overlay{
+   display: none;
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   width: 100%;
+   height: 800px;
+   background-color: black;
+   z-index:1001;
+   -moz-opacity: 0.5;
+   opacity:.50;
+   filter: alpha(opacity=50);
+}
+
+.white_content {
+   display: none;
+   position: absolute;
+   top: 20%;
+   left: 20%;
+   right: 20%;
+   width: 60%;
+   height: 60%;
+   padding: 20px;
+   border: 2px solid black;
+   background-color: white;
+   z-index:1002;
+   overflow: hidden;
+}
+
+.containerlb{
+   width: 90%;
+   height: 90%;
+   margin: 20px;   
+}
+
+.row{
+   width: 100%;
+   height: auto;
+   text-align: justify;
+   font-size: 16px;
+   line-height: 30px;
+   margin: 4px 9px 4px 9px;
+}
+
+h3{
+   padding-left:175px;
+   color:#000000;
+}

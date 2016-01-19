@@ -1,0 +1,544 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Drag and Drop</title>
+        
+        <!--Stylesheets-->
+        <link rel="StyleSheet" href="css/stylestove.css" type="text/css">
+        
+        <!--Scripts-->
+        <script type="text/javascript" src="js/jquery.min.js">
+	</script>
+	
+	<script type="text/javascript" src="js/jquery-ui.js">
+	</script>
+        
+        <script>
+	    var freeze = 0;
+	    
+            function changeimg(img)
+            {
+                if(img == 0)
+                   document.getElementById("gridimg").src= "images/nowashing.png";
+                if(img == 1)
+                   document.getElementById("gridimg").src= "images/washing1.png";
+                if(img == 2)
+                   document.getElementById("gridimg").src= "images/washing2.png";
+            }
+            
+                    
+            $(document).ready(function()
+            {
+                //Draggable buttons
+		$("#b1").draggable();
+		$("#b2").draggable();
+		$("#b3").draggable();
+		$("#b4").draggable();
+		$("#b5").draggable();
+		$("#b6").draggable();
+		$("#b7").draggable();
+		$("#b8").draggable();
+		$("#b9").draggable();
+		$("#b10").draggable();
+		$("#b11").draggable();
+		$("#b12").draggable();
+		
+		//Draggable labels
+		$("#l1").draggable();
+		$("#l2").draggable();
+		$("#l3").draggable();
+		$("#l4").draggable();
+		$("#l5").draggable();
+		$("#l6").draggable();
+		$("#l7").draggable();
+		$("#l8").draggable();
+		$("#l9").draggable();
+		$("#l10").draggable();
+		$("#l11").draggable();
+		$("#l12").draggable();
+		$("#l13").draggable();
+		$("#l14").draggable();
+		$("#l15").draggable();
+		$("#l16").draggable();
+		$("#l17").draggable();
+		$("#l18").draggable();
+		$("#l19").draggable();
+		$("#l20").draggable();
+		$("#l21").draggable();
+		$("#l22").draggable();
+		$("#l23").draggable();
+		$("#l24").draggable();
+		$("#l25").draggable();
+		$("#l26").draggable();
+		
+		//Dragable LED's
+		$("#ld1").draggable();
+		$("#ld2").draggable();
+		$("#ld3").draggable();
+		$("#ld4").draggable();
+		$("#ld5").draggable();
+		$("#ld6").draggable();
+		$("#ld7").draggable();
+		$("#ld8").draggable();
+		$("#ld9").draggable();
+		$("#ld10").draggable();
+		$("#ld11").draggable();
+		$("#ld12").draggable();
+		$("#ld13").draggable();
+		$("#ld14").draggable();
+		$("#ld15").draggable();
+		$("#ld16").draggable();
+		$("#ld17").draggable();
+		$("#ld18").draggable();
+		$("#ld19").draggable();
+		$("#ld20").draggable();
+		$("#ld21").draggable();
+		$("#ld22").draggable();
+		$("#ld23").draggable();
+		$("#ld24").draggable();
+		$("#ld25").draggable();
+		$("#ld26").draggable();
+		$("#ld27").draggable();
+		$("#ld28").draggable();
+		$("#ld29").draggable();
+		$("#ld30").draggable();
+		$("#ld31").draggable();
+		$("#ld32").draggable();
+		$("#ld33").draggable();
+		$("#ld34").draggable();
+		$("#ld35").draggable();
+		$("#ld36").draggable();
+		$("#ld37").draggable();
+		$("#ld38").draggable();
+		$("#ld39").draggable();
+		$("#ld40").draggable();
+		
+                $("#av").draggable();
+                $("#mn").draggable();
+                $("#n1").draggable();
+                $("#n2").draggable();
+                $("#n3").draggable();
+                $("#n4").draggable();
+                $("#n5").draggable();
+                $("#n6").draggable();
+                $("#n7").draggable();
+                $("#n8").draggable();
+                $("#n9").draggable();
+                $("#dd").draggable();
+                $("#n10").draggable();
+		$("#n11").draggable();
+		$("#n12").draggable();
+		$("#n13").draggable();
+		$("#n14").draggable();
+                $("#at").draggable();
+                $("#mt").draggable();
+                $("#sc").draggable();
+                $("#pp").draggable();
+                $("#p1").draggable();
+                $("#p2").draggable();
+                $("#v1").draggable();
+                $("#v2").draggable();
+		
+		$("#grid").draggable();
+            });
+	    
+	    function setfreeze()
+	    {
+		if (freeze == 0)
+		{
+		    document.getElementById('disablingDiv').style.display='block';
+		    document.getElementById('disTool').style.display='block';
+		    freeze = 1;
+		}
+		
+		else
+		{
+		    document.getElementById('disablingDiv').style.display='none';
+		    document.getElementById('disTool').style.display='none';
+		    freeze = 0;
+		}
+	    }
+	    
+	    function prpt()
+	    {
+		var r = confirm ("Are you sure you want to clear the panel layout?", "2");
+		
+		if(r == true)
+		{
+		    history.go(0);
+		}
+	    }
+	</script>
+    </head>
+
+    <body>
+        <div class="container">
+	    <div class="operation">
+		<div class="toolbar">
+		    <div id="disTool"></div>
+		    <div class="buttons">
+			<center><u><b>Power</b></u></center>
+			<div class="btnl" id="b1">
+			    <img src="images/stove/pwr.png" title="Power" />
+			</div>
+			
+			
+			
+			<div class="imgl" id="l1">
+			    <img src="images/stove/level.png" title="Heat Level Indicator" height="50px" width="50px" />
+			</div>
+			
+			<div class="imgl" id="l2">
+			    <img src="images/stove/plus.png" title="Heat Up" />
+			</div>
+			
+			<div class="imgl" id="l3">
+			    <img src="images/stove/minus.png" title="Heat Down" />
+			</div>
+			
+			
+			
+			<div class="led" id="ld1">
+			    <img src="images/stove/timer.png" title="Timer" />
+			</div>
+			
+			<div class="led" id="ld2">
+			    <img src="images/stove/up.png" title="Heat Level Up" />
+			</div>
+			
+			<div class="led" id="ld3">
+			    <img src="images/stove/dwn.png" title="Heat Level Down" />
+			</div>
+			
+			<div class="led" id="ld4">
+			    <img src="images/stove/up.png" title="Heat Level Up" />
+			</div>
+			
+			<div class="led" id="ld5">
+			    <img src="images/stove/dwn.png" title="Heat Level Down" />
+			</div>
+			
+			<div class="led" id="ld6">
+			    <img src="images/stove/reset.png" title="Reset" />
+			</div>
+			
+			<div class="led" id="ld7">
+			    <img src="images/stove/strtstp.png" title="Start Stop" />
+			</div>
+			
+			
+			
+			<!--div class="btnl" id="b2">
+			    <img src="images/white.png" title="" />
+			</div>
+			
+			<div class="btnl" id="b3">
+			    <img src="images/white.png" title="" />
+			</div>
+			
+			<div class="btnl" id="b4">
+			    <img src="images/white.png" title="" />
+			</div>
+			
+			<div class="btnl" id="b5">
+			    <img src="images/white.png" title="" />
+			</div>
+			
+			<div class="btnl" id="b6">
+			    <img src="images/grey.png" title="" />
+			</div>
+			
+			<div class="btnl" id="b7">
+			    <img src="images/grey.png" title="" />
+			</div>
+			
+			<div class="btnl" id="b8">
+			    <img src="images/grey.png" title="" />
+			</div>
+			
+			<div class="btnl" id="b9">
+			    <img src="images/grey.png" title="" />
+			</div>
+			
+			<div class="btnl" id="b10">
+			    <img src="images/grey.png" title="" />
+			</div>
+	
+			<div class="btnl" id="b11">
+			    <img src="images/pwr.png" title="" />
+			</div>
+			
+			<div class="btnl" id="b12">
+			    <img src="images/strtpse.png" title="" />
+			</div-->
+		    </div>
+		    
+		    <!--div class="labels">
+			<!--center><u><b>Flame</b></u></center>
+			
+			
+			<div class="imgl" id="l4">
+			    <img src="images/FAST.png" title="" />
+			</div>
+			
+			<div class="imgl" id="l5">
+			    <img src="images/MED.png" title="" />
+			</div>
+			
+			<div class="imgl" id="l6">
+			    <img src="images/SLOW.png" title="" />
+			</div>
+			
+			<div class="imgl" id="l7">
+			    <img src="images/HIGH.png" title="" />
+			</div>
+			
+			<div class="imgl" id="l8">
+			    <img src="images/MED.png" title="" />
+			</div>
+			
+			<div class="imgl" id="l9">
+			    <img src="images/SLOW.png" title="" />
+			</div>
+			
+			<div class="imgl" id="l10">
+			    <img src="images/HOT.png" title="" />
+			</div>
+			
+			<div class="imgl" id="l11">
+			    <img src="images/WARM.png" title="" />
+			</div>
+			
+			<div class="imgl" id="l12">
+			    <img src="images/COLD.png" title="" />
+			</div>
+			
+			<div class="imgl" id="l13">
+			    <img src="images/reg.png" title="" />
+			</div>
+			
+			<div class="imgl" id="l14">
+			    <img src="images/hdt.png" title="" />
+			</div>
+			
+			<div class="imgl" id="l15">
+			    <img src="images/deli.png" title="" />
+			</div>
+			
+			<div class="imgl" id="l16">
+			    <img src="images/wool.png" title="" />
+			</div>
+			
+			<div class="imgl" id="l17">
+			    <img src="images/fav.png" title="" />
+			</div>
+			
+			<div class="imgl" id="l18">
+			    <img src="images/power.png" title="" />
+			</div>
+			
+			<div class="imgl" id="l19">
+			    <img src="images/stp.png" title="" />
+			</div>
+			
+			<div class="imgl" id="l20">
+			    <img src="images/.png" title="" />
+			</div>
+			
+			<div class="imgl" id="l21">
+			    <img src="images/.png" title="" />
+			</div>
+			
+			<div class="imgl" id="l22">
+			    <img src="images/.png" title="" />
+			</div>
+			
+			<div class="imgl" id="l23">
+			    <img src="images/.png" title="" />
+			</div>
+			
+			<div class="imgl" id="l24">
+			    <img src="images/.png" title="" />
+			</div>
+			
+			<div class="imgl" id="l25">
+			    <img src="images/.png" title="" />
+			</div>
+			
+			<div class="imgl" id="l26">
+			    <img src="images/.png" title="" />
+			</div>
+		    </div>
+		    
+		    <div class="leds">
+			<!--center><u><b>Time</b></u></center>
+			
+			
+			<div class="led" id="ld8">
+			    <img src="images/green.png" title="Green LED" />
+			</div>
+			
+			<div class="led" id="ld9">
+			    <img src="images/green.png" title="Green LED" />
+			</div>
+			
+			<div class="led" id="ld10">
+			    <img src="images/green.png" title="Green LED" />
+			</div>
+			
+			<div class="led" id="ld11">
+			    <img src="images/redled.png" title="Red LED" />
+			</div>
+			
+			<div class="led" id="ld12">
+			    <img src="images/redled.png" title="Red LED" />
+			</div>
+			
+			<div class="led" id="ld13">
+			    <img src="images/redled.png" title="Red LED" />
+			</div>
+			
+			<div class="led" id="ld14">
+			    <img src="images/redled.png" title="Red LED" />
+			</div>
+			
+			<div class="led" id="ld15">
+			    <img src="images/redled.png" title="Red LED" />
+			</div>
+			
+			<div class="led" id="ld16">
+			    <img src="images/redled.png" title="Red LED" />
+			</div>
+			
+			<div class="led" id="ld17">
+			    <img src="images/redled.png" title="Red LED" />
+			</div>
+			
+			<div class="led" id="ld18">
+			    <img src="images/redled.png" title="Red LED" />
+			</div>
+			
+			<div class="led" id="ld19">
+			    <img src="images/redled.png" title="Red LED" />
+			</div>
+			
+			<div class="led" id="ld20">
+			    <img src="images/redled.png" title="Red LED" />
+			</div>
+			
+			<div class="led" id="ld21">
+			    <img src="images/orgled.png" title="Orange LED" />
+			</div>
+			
+			<div class="led" id="ld22">
+			    <img src="images/orgled.png" title="Orange LED" />
+			</div>
+			
+			<div class="led" id="ld23">
+			    <img src="images/orgled.png" title="Orange LED" />
+			</div>
+			
+			<div class="led" id="ld24">
+			    <img src="images/orgled.png" title="Orange LED" />
+			</div>
+			
+			<div class="led" id="ld25">
+			    <img src="images/orgled.png" title="Orange LED" />
+			</div>
+			
+			<div class="led" id="ld26">
+			    <img src="images/orgled.png" title="Orange LED" />
+			</div>
+			
+			<div class="led" id="ld27">
+			    <img src="images/orgled.png" title="Orange LED" />
+			</div>
+			
+			<div class="led" id="ld28">
+			    <img src="images/orgled.png" title="Orange LED" />
+			</div>
+			
+			<div class="led" id="ld29">
+			    <img src="images/orgled.png" title="Orange LED" />
+			</div>
+			
+			<div class="led" id="ld30">
+			    <img src="images/orgled.png" title="Orange LED" />
+			</div>
+			
+			<div class="led" id="ld31">
+			    <img src="images/greyled.png" title="Default" />
+			</div>
+			
+			<div class="led" id="ld32">
+			    <img src="images/greyled.png" title="Default" />
+			</div>
+			
+			<div class="led" id="ld33">
+			    <img src="images/greyled.png" title="Default" />
+			</div>
+			
+			<div class="led" id="ld34">
+			    <img src="images/greyled.png" title="Default" />
+			</div>
+			
+			<div class="led" id="ld35">
+			    <img src="images/greyled.png" title="Default" />
+			</div>
+			
+			<div class="led" id="ld36">
+			    <img src="images/greyled.png" title="Default" />
+			</div>
+			
+			<div class="led" id="ld37">
+			    <img src="images/greyled.png" title="Default" />
+			</div>
+			
+			<div class="led" id="ld38">
+			    <img src="images/greyled.png" title="Default" />
+			</div>
+			
+			<div class="led" id="ld39">
+			    <img src="images/greyled.png" title="Default" />
+			</div>
+			
+			<div class="led" id="ld40">
+			    <img src="images/greyled.png" title="Default" />
+			</div>
+		    </div-->
+		</div>
+		
+		<div class="workspace">
+		    <div id="disablingDiv">
+			<span style="text-align: right; margin-left: 90%;">Freezed</span>
+		    </div>
+		    
+		    <div style="width: 620px; height: 670px; position: absolute; margin: 0px;"><img src="images/nogrid1.png" id="gridimg" /></div>
+		    
+		    <b style="margin-left: 10px; color: black;">Panel</b>
+		    
+		    <div class="image">
+			<center><img src="images/stove/panel.png" id="grid" width="600px" height="300px" /></center>
+			
+		    </div>
+		</div>
+	    </div>
+		
+	    <div class="action">
+                <input type="button" name="grid" value="No Grid" accesskey="g0" tabindex="5" onClick='changeimg(0);' style="margin-top: 10px; margin-left: auto; margin-right: auto; width: auto; font-size:14px "/>
+                <input type="button" name="grid1" value="Large Grid" accesskey="g1" tabindex="3" onClick="changeimg(1);" style="margin-top: 10px; margin-left: auto; margin-right: auto; width: auto; font-size:14px "/>
+                <input type="button" name="grid2" value="Small Grid" accesskey="g2" tabindex="4" onClick="changeimg(2);" style="margin-top: 10px; margin-left: auto; margin-right: auto; width: auto; font-size:14px "/>                
+		<input type="button" value="Clear Panel" onClick="prpt()" style="margin-top: 10px; margin-left: auto; margin-right: auto; width: auto; font-size:14px" />
+		<input type="button" name="freeze" id="freeze" value="Freeze / Unfreeze" accesskey="s" tabindex="1" onClick="setfreeze();" style="margin-top: 10px; margin-left: auto; margin-right: auto; width: auto; font-size:14px "/>
+		<input type="button" value="Next Prototype" onclick="index.html" style="margin-top: 10px; margin-left: auto; margin-right: auto; width: auto; font-size:14px" />
+		
+                <!--a href="index.html"><img src="images/nextb.png" alt="Next Prototype" style="margin-left: 10px;" /></a><br />
+		
+                <!--br /><br /><span style="width: 100px; color: white; margin: 10px 0px 10px 0px; text-align: justify;">(* Please save your prototype before you proceed to the next prototype. If you do not save you will have to recreate the whole prototype once again.)</span>
+                    
+                <br /><br /><a href="menu.php">Back to Control Panel Design Menu</a-->
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,7 @@
+NOTES:
+
+1. Font Name to be displayed along with time taken to read on graph
+2. Two columns to be displayed on each page
+3. Fancy Fonts select 3 from index1,7,12,16.php
+4. Coloured Fonts Set: 1. Yellow Text on Blue Background
+                       2. Normal

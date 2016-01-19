@@ -1,0 +1,159 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 1000px;
+    height: 760px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    z-index: 1;
+}
+
+.operation{
+    width: 990px;
+    height: 700px;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    border: 1px solid red;
+}
+
+.action{
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    position: absolute;
+    top: 0px;
+    margin-left: 10px;
+}
+
+.toolbar{
+    width: 970px;
+    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    border: 1px solid black;
+    background-color: pink;
+}
+
+.workspace{
+    width: 970px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    z-index: 1;
+    background-color: #EFE3AF;
+}
+
+.buttons{
+    width: 960px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid black;
+    float: left;
+    background-color: #DFDFDF;
+}
+
+.labels{
+    width: 310px;
+    height: 220px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid black;
+    float: left;
+    background-color: #DFDFDF;
+}
+
+.leds{
+    width: 310px;
+    height: 220px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid black;
+    float: left;
+    background-color: #DFDFDF;
+}
+
+.btnl{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    z-index: 100;
+}
+
+.imgl{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 3px;
+    z-index: 100;
+}
+
+.led{
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    float: left;
+    z-index: 100;
+}
+
+#disTool{
+    width: 970px;
+    height: 250px;
+    margin-left: -1px;
+    margin-top: -1px;
+    border: 1px solid black;
+    
+    /* Do not display it on entry */
+    display: none;
+ 
+    /* Display it on the layer with index 1001.
+       Make sure this is the highest z-index value
+       used by layers on that page */
+    z-index:1001;
+     
+    /* make it cover the whole screen */
+    position: absolute;
+    
+    /* make it white but fully transparent */
+    background-color: pink;
+    opacity:.50;
+    filter: alpha(opacity=50);
+}
+
+#disablingDiv{
+    width: 970px;
+    height: 400px;
+    margin-top: -1px;
+    margin-left: -1px;
+    border: 1px solid black;
+    z-index: 1;
+    
+    /* Do not display it on entry */
+    display: none;
+ 
+    /* Display it on the layer with index 1001.
+       Make sure this is the highest z-index value
+       used by layers on that page */
+    z-index:1001;
+     
+    /* make it cover the whole screen */
+    position: absolute;
+    
+    /* make it white but fully transparent */
+    background-color: #C1C1C1;
+    opacity:.50;
+    filter: alpha(opacity=50); 
+}

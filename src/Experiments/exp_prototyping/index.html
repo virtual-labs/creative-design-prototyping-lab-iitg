@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Prototyping a TV Remote Control Panel</title>
+        
+        <!--Stylesheets-->
+        <link rel="StyleSheet" href="css/style.css" type="text/css">
+	<link rel="StyleSheet" href="css/stylelb.css" type="text/css">
+        
+        <!--Scripts-->
+        <script type="text/javascript" src="js/jquery.min.js">
+	</script>
+	
+	<script type="text/javascript" src="js/jquery-ui.js">
+	</script>
+	
+	<script type="text/javascript" src="js/function.js">
+	</script>
+        
+        <script>
+	    var freeze = 0;
+	    
+            function changeimg(img)
+            {
+                if(img == 0)
+                   document.getElementById("gridimg").src= "images/nogrid1.png";
+                if(img == 1)
+                   document.getElementById("gridimg").src= "images/grid1.png";
+                if(img == 2)
+                   document.getElementById("gridimg").src= "images/grid2.png";
+            }
+            
+                    
+            $(document).ready(function()
+            {
+                $("#pwr").draggable();
+                $("#av").draggable();
+                $("#mn").draggable();
+                $("#n1").draggable();
+                $("#n2").draggable();
+                $("#n3").draggable();
+                $("#n4").draggable();
+                $("#n5").draggable();
+                $("#n6").draggable();
+                $("#n7").draggable();
+                $("#n8").draggable();
+                $("#n9").draggable();
+                $("#dd").draggable();
+                $("#n0").draggable();
+                $("#at").draggable();
+                $("#mt").draggable();
+                $("#sc").draggable();
+                $("#pp").draggable();
+                $("#p1").draggable();
+                $("#p2").draggable();
+                $("#v1").draggable();
+                $("#v2").draggable();
+		
+		$("#grid").draggable();
+            });
+	    
+	    function setfreeze()
+	    {
+		if (freeze == 0)
+		{
+		    document.getElementById('disablingDiv').style.display='block';
+			document.getElementById('dinsideDiv').style.display='block';
+		    document.getElementById('disTool').style.display='block';
+		    freeze = 1;
+		}
+		
+		else
+		{
+		    document.getElementById('disablingDiv').style.display='none';
+			document.getElementById('dinsideDiv').style.display='none';
+		    document.getElementById('disTool').style.display='none';		
+		    freeze = 0;
+		}
+	    }
+	    
+	    function prpt()
+	    {
+		var r = confirm ("Are you sure you want to clear the panel layout?", "2");
+		
+		if(r == true)
+		{
+		    history.go(0);
+		}
+	    }
+	</script>
+    </head>
+
+    <body>
+        <div class="container">
+	    <div class="operation">
+		<div class="workspace">
+		    <div id="disablingDiv">
+			<span style="text-align: right; margin-left: 90%;">Freezed</span>
+			<div id="dinsideDiv">
+			    <div class="image">
+				<img src="Tv_Remote_Control.png" alt="Standard TV Remote Control" width="150px" height="600px" />
+			    </div>
+			    <div class="checklist">
+				<iframe src="checklist.html" frameborder="0" width="350px" height="600px"></iframe>
+			    </div>
+			</div>
+		    </div>
+		    
+		    <div style="width: 620px; height: 670px; position: absolute; margin: -11px;">
+			<img src="images/nogrid1.png" id="gridimg" />
+		    </div>
+		    
+		    <b style="margin-left: 10px; font-size: 14px; color: black;">Workspace</b>
+		    
+		    <div class="image">
+			<img src="images/remote.png" id="grid" width="200px" height="600px" />
+		    </div>
+		</div>
+		
+		<div class="toolbar" id="toolbar">
+		    <div id="disTool"></div>
+		    <div style="margin: 10px; font-size: 16px; color: black; font-weight: bold;">
+			Tool Box
+		    </div>
+		    
+		    <div class="img" id="pwr">
+			<img src="images/pr.png" title="Power" width="30px" height="30px" />
+		    </div>
+		    
+		    <div class="img" id="av">
+			<img src="images/av.png" title="AV output" width="30px" height="30px" />
+		    </div>
+		    
+		    <div class="img" id="mn">
+			<img src="images/mn.png" title="Menu Button" width="30px" height="30px" />
+		    </div>
+		    
+		    <div class="img" id="n1">
+			<img src="images/n1.png" width="30px" height="30px" />
+		    </div>
+		    
+		    <div class="img" id="n2">
+			<img src="images/n2.png" width="30px" height="30px" />
+		    </div>
+		    
+		    <div class="img" id="n3">
+			<img src="images/n3.png" width="30px" height="30px" />
+		    </div>
+		    
+		    <div class="img" id="n4">
+			<img src="images/n4.png" width="30px" height="30px" />
+		    </div>
+		    
+		    <div class="img" id="n5">
+			<img src="images/n5.png" width="30px" height="30px" />
+		    </div>
+		    
+		    <div class="img" id="n6">
+			<img src="images/n6.png" width="30px" height="30px" />
+		    </div>
+		    
+		    <div class="img" id="n7">
+			<img src="images/n7.png" width="30px" height="30px" />
+		    </div>
+		    
+		    <div class="img" id="n8">
+			<img src="images/n8.png" width="30px" height="30px" />
+		    </div>
+		    
+		    <div class="img" id="n9">
+			<img src="images/n9.png" width="30px" height="30px" />
+		    </div>
+		    
+		    <div class="img" id="dd">
+			<img src="images/dd.png" width="30px" height="30px" />
+		    </div>
+		    
+		    <div class="img" id="n0">
+			<img src="images/n0.png" width="30px" height="30px" />
+		    </div>
+		    
+		    <div class="img" id="at">
+			<img src="images/at.png" width="30px" height="30px" />
+		    </div>
+		    
+		    <div class="img" id="mt">
+			<img src="images/mt.png" title="Mute" width="30px" height="30px" />
+		    </div>
+		    
+		    <div class="img" id="pp">
+			<img src="images/pp.png" width="30px" height="30px" />
+		    </div>
+		    
+		    <div class="img" id="sc">
+			<img src="images/sc.png" title="Scan" width="30px" height="30px" />
+		    </div>
+		    
+		    <div class="img" id="p1">
+			<img src="images/p1.png" title="Channel +" width="30px" height="30px" />
+		    </div>
+		    
+		    <div class="img" id="p2">
+			<img src="images/p2.png" title="Channel -" width="30px" height="30px" />
+		    </div>
+		    
+		    <div class="img" id="v1">
+			<img src="images/v1.png" title="Volume increase" width="30px" height="30px" />
+		    </div>
+		    
+		    <div class="img" id="v2">
+			<img src="images/v2.png" title="Volume decrease" width="30px" height="30px" />
+		    </div>
+		</div>
+	    </div>
+		
+	    <div class="action">
+                <input type="button" name="grid" value="No Grid" accesskey="g0" tabindex="5" onClick='changeimg(0);' style="margin-top: 10px; margin-left: auto; margin-right: auto; width: auto; font-size:14px "/>
+                <input type="button" name="grid1" value="Large Grid" accesskey="g1" tabindex="3" onClick="changeimg(1);" style="margin-top: 10px; margin-left: auto; margin-right: auto; width: auto; font-size:14px "/>
+                <input type="button" name="grid2" value="Small Grid" accesskey="g2" tabindex="4" onClick="changeimg(2);" style="margin-top: 10px; margin-left: auto; margin-right: auto; width: auto; font-size:14px "/>                
+		<input type="button" value="Clear Panel" onClick="prpt()" style="margin-top: 10px; margin-left: auto; margin-right: auto; width: auto; font-size:14px" />
+		<input type="button" name="freeze" id="freeze" value="Freeze / Unfreeze" accesskey="s" tabindex="1" onClick="setfreeze();" style="margin-top: 10px; margin-left: auto; margin-right: auto; width: auto; font-size:14px "/>
+		<span style="margin-top: 10px; margin-left: auto; margin-right: auto; width: auto; font-size:28px; text-align: right; color: red;">
+		<input type="button" name="exit" id="exit" value="EXIT" onclick="location.href='http://iitg.vlab.co.in/index.php?sub=72&brch=170&sim=1357&cnt=4'" style="margin-top: 10px; margin-left: auto; margin-right: auto; width: auto; font-size:14px "/>
+		TV Remote Control</span>
+	
+		<div class="hlp">
+		    <a style="float: right;" href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">
+		       <img src="images/helpp.png" alt="Help" width="50px" height="50px" />
+		    </a>
+		</div>
+               
+		<div id="light" class="white_content">
+		    <a style="float: right;" href="javascript:void(0)" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><img src="images/close.gif" alt="Close" /></a>
+		    <div class="containerlb">
+			<div class="row">
+			    There are three parts of the screen<br />
+			    a)	Function keys (on top)<br />
+			    b)	Movable panel elements (Buttons/labels/LED's)<br />
+			    c)	A fixed panel cut-out (at bottom)<br /><br /><br />
+
+			    1. You can drag any of the movable panel elements and place them wherever you want inside the black border line of the panel cut-out.<br />
+			    2. A reference grid for proper placement of panel elements can be displayed using function keys on the top.<br />
+			    3. Once the entire prototype is ready on the panel cut-out you should freeze the movable elements by clicking FREEZE/UNFREEZE button. You can save this final prototype by using the print-screen key on the keyboard and saving it using paint or other image editing tool.<br />
+			    4. To exit this prototyping experiment press EXIT button on top.<br />
+
+			</div>
+		    </div>
+		</div>
+
+		<div id="fade" class="black_overlay">
+		</div>
+         
+		
+                <!--a href="index.html"><img src="images/nextb.png" alt="Next Prototype" style="margin-left: 10px;" /></a><br />
+		
+                <!--br /><br /><span style="width: 100px; color: white; margin: 10px 0px 10px 0px; text-align: justify;">(* Please save your prototype before you proceed to the next prototype. If you do not save you will have to recreate the whole prototype once again.)</span>
+                    
+                <br /><br /><a href="menu.php">Back to Control Panel Design Menu</a-->
+            </div>
+        </div>
+    </body>
+</html>

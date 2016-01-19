@@ -1,0 +1,9 @@
+C:\Documents and Settings\ABC\My Documents\Visual Studio 2005\ISTOVE\ISTOVE\bin\Debug\ISTOVE.exe
+C:\Documents and Settings\ABC\My Documents\Visual Studio 2005\ISTOVE\ISTOVE\bin\Debug\ISTOVE.pdb
+C:\Documents and Settings\ABC\My Documents\Visual Studio 2005\ISTOVE\ISTOVE\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ABC\My Documents\Visual Studio 2005\ISTOVE\ISTOVE\obj\Debug\ISTOVE.Form1.resources
+C:\Documents and Settings\ABC\My Documents\Visual Studio 2005\ISTOVE\ISTOVE\obj\Debug\ISTOVE.Properties.Resources.resources
+C:\Documents and Settings\ABC\My Documents\Visual Studio 2005\ISTOVE\ISTOVE\obj\Debug\ISTOVE.csproj.GenerateResource.Cache
+C:\Documents and Settings\ABC\My Documents\Visual Studio 2005\ISTOVE\ISTOVE\obj\Debug\ISTOVE.exe
+C:\Documents and Settings\ABC\My Documents\Visual Studio 2005\ISTOVE\ISTOVE\obj\Debug\ISTOVE.pdb
+C:\Documents and Settings\ABC\My Documents\Visual Studio 2005\ISTOVE\ISTOVE\obj\Debug\ISTOVE.Form2.resources

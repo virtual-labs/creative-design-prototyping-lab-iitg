@@ -1,0 +1,155 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana;
+}
+
+.container{
+    width: 1024px;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    width: 1024px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+.headbar{
+    background-color: #12679D;
+    width: 1024px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    color: white;
+}
+
+.txt{
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+
+.uelab{
+    background: url("../images/final_logo.jpg") repeat;
+    width: 227px;
+    height: 150px;
+    float: left;
+}
+
+.heading{
+    width: 797px;
+    height: 150px;
+    float: left;
+    text-align: justify;
+}
+
+.no1{
+    width: 500px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40pt;
+    padding-top: 40px;
+}
+
+.no2{
+    width: 790px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content{
+    width: 1024px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+.reading{
+    width: 1000px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.readingc{
+    width: 1000px;
+    height: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: dodgerblue;
+}
+
+.simul{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.text{
+    border-color: 2px solid white;
+    color: white;
+}
+
+.row{
+    width: 400px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+.col1{
+    width: 180px;
+    height: 23px;
+    float: left;
+    border-right: 1px solid black;
+    text-align: center;
+}
+
+.col2{
+    width: 200px;
+    height: 23px;
+    float: left;
+    border-left: 1px solid black;
+    text-align: center;
+}
+
+.sam{
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #8BBCDC;
+}
+
+.footer{
+    width: 1024px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    background-color: #12679D;
+}
+
+
+#apDiv1 {
+	position:absolute;
+	left:377px;
+	top:66px;
+	width:930px;
+	height:611px;
+	z-index:1;
+}

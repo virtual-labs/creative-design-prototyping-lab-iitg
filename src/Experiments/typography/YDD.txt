@@ -1,0 +1,28 @@
+HI,
+
+See  attachment  and  prepare  6 web-pages  as  directed  in  ppt.
+
+
+1)  Start time  must  start  timer  ,  stop time  must stop  timer  for
+    reading
+2)  Time  must  not  be  displayed  while  reading
+3)  After  stop  timer ---  record  time  elapsed  in  min and
+    seconds only.
+4)  Next  will  navigate  to  next  paragraph -- P2  and  so on
+..
+...
+5)  After  user  presses  next  button  on  last  para- P6
+    a  new  page  will  open  displaying....
+
+    Paragraph     Time
+    -------------------
+       P1          mn1.ss1
+       P2          mn2.ss2
+       P3          mn3.ss3
+       P4          mn4.ss4
+       P5          mn5.ss5
+       P6          mn6.ss6
+
+Thats  it.  This  should  not  take  more  than  one  day.
+
+Images  are  attached.

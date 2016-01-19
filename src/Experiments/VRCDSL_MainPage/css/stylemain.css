@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+.container{
+    width: 1024px;
+    height: 850px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    width: 1024px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+.headbar{
+    background-color: #12679D;
+    width: 1024px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    color: white;
+}
+
+.txt{
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 900px;
+}
+
+.uelab{
+    background: url("../images/final_logo.jpg") repeat;
+    width: 227px;
+    height: 150px;
+    float: left;
+}
+
+.heading{
+    width: 797px;
+    height: 150px;
+    float: left;
+    text-align: justify;
+}
+
+.no1{
+    width: 500px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40pt;
+    padding-top: 40px;
+}
+
+.no2{
+    width: 790px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content{
+    width: 1024px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+.footer{
+    width: 1024px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    background-color: #12679D;
+}
+
+
+#apDiv1 {
+	position:absolute;
+	left:167px;
+	top:314px;
+	width:650px;
+	height:489px;
+	z-index:1;
+}

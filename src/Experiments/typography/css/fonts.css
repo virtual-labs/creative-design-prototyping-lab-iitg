@@ -1,0 +1,221 @@
+/* Embedding ttf fonts */
+
+@font-face{
+    font-family: a;
+    src: url('fonts/A Sensible Armadillo.ttf');
+}
+
+@font-face{
+    font-family: g;
+    src: url('fonts/beaggressive.ttf');
+}
+
+@font-face{
+    font-family: p;
+    src: url('fonts/Otto.ttf');
+}
+
+
+/*Fancy Fonts*/
+
+.simul1a{
+    width: 406px;
+    height: auto;
+    margin-left: 80px;
+    font-size: 14pt;
+    float: left;
+    text-align: justify;
+    font-family: a; /* Embedding ttf fonts */
+    font-weight: bold;
+}
+
+.simul7a{
+    width: 406px;
+    height: auto;
+    margin-left: 80px;
+    font-size: 12pt;
+    float: left;
+    text-align: justify;
+    font-family: g; /* Embedding ttf fonts */
+    font-weight: bold;
+}
+
+.simul16a{
+    width: 406px;
+    height: auto;
+    margin-left: 80px;
+    font-size: 25pt;
+    float: left;
+    text-align: justify;
+    font-family: p; /* Embedding ttf fonts */
+    font-weight: bold;
+    line-height: 22px;
+}
+
+.simul1b{
+    width: 406px;
+    height: auto;
+    margin-left: 50px;
+    font-size: 14pt;
+    float: left;
+    text-align: justify;
+    font-family: a; /* Embedding ttf fonts */
+    font-weight: bold;
+}
+
+.simul7b{
+    width: 406px;
+    height: auto;
+    margin-left: 50px;
+    font-size: 12pt;
+    float: left;
+    text-align: justify;
+    font-family: g; /* Embedding ttf fonts */
+    font-weight: bold;
+}
+
+.simul16b{
+    width: 406px;
+    height: auto;
+    margin-left: 50px;
+    font-size: 25pt;
+    float: left;
+    text-align: justify;
+    font-family: p; /* Embedding ttf fonts */
+    font-weight: bold;
+    line-height: 22px;
+}
+
+/*Different Colors*/
+
+.simulbt1a{
+    padding: 10px;
+    width: 406px;
+    height: auto;
+    margin-left: 80px;
+    font-size: 12pt;
+    float: left;
+    text-align: justify;
+    font-family: Verdana; /* Embedding ttf fonts */
+    color: red;
+    background-color: dodgerblue;
+    line-height: 20px;
+}
+
+.simulbt2a{
+    padding: 10px;
+    width: 406px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 12pt;
+    float: left;
+    text-align: justify;
+    font-family: Verdana; /* Embedding ttf fonts */
+    color: black;
+    background-color: white;
+}
+
+.simulbt1b{
+    padding: 10px;
+    width: 406px;
+    height: auto;
+    margin-left: 10px;
+    font-size: 12pt;
+    float: left;
+    text-align: justify;
+    font-family: Verdana; /* Embedding ttf fonts */
+    color: red;
+    background-color: dodgerblue;
+    line-height: 20px;
+}
+
+.simulbt2b{
+    padding: 10px;
+    width: 406px;
+    height: auto;
+    margin-left: 10px;
+    font-size: 12pt;
+    float: left;
+    text-align: justify;
+    font-family: Verdana; /* Embedding ttf fonts */
+    color: black;
+    background-color: white;
+}
+
+.std1{
+    padding: 10px;
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Arial; /* Embedding ttf fonts */
+}
+
+/*Standard Font Types*/
+
+.std1a{
+    padding: 10px;
+    width: 406px;
+    height: auto;
+    float: left;
+    margin-left: 80px;
+    font-size: 12pt;
+    text-align: justify;
+    font-family: Calibri; /* Embedding ttf fonts */
+}
+
+.std2a{
+    padding: 10px;
+    width: 406px;
+    height: auto;
+    float: left;
+    margin-left: 80px;
+    font-size: 12pt;
+    text-align: justify;
+    font-family: Times New Roman; /* Embedding ttf fonts */
+}
+
+.std3a{
+    padding: 10px;
+    width: 406px;
+    height: auto;
+    float: left;
+    margin-left: 80px;
+    font-size: 12pt;
+    text-align: justify;
+    font-family: sans-serif; /* Embedding ttf fonts */
+}
+
+.std1b{
+    padding: 10px;
+    width: 406px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+    font-size: 12pt;
+    text-align: justify;
+    font-family: Calibri; /* Embedding ttf fonts */
+}
+
+.std2b{
+    padding: 10px;
+    width: 406px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+    font-size: 12pt;
+    text-align: justify;
+    font-family: Times New Roman; /* Embedding ttf fonts */
+}
+
+.std3b{
+    padding: 10px;
+    width: 406px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+    font-size: 12pt;
+    text-align: justify;
+    font-family: sans-serif; /* Embedding ttf fonts */
+}

@@ -1,0 +1,15 @@
+.spinner
+{
+    list-style: none; 
+    display: inline-block; 
+    line-height: 0;
+    vertical-align: middle; 
+}
+
+.spinner input
+{
+    font-size:7;
+    border-width: 0px;
+    height: 12;
+    width: 12;
+}

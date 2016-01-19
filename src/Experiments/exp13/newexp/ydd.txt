@@ -1,0 +1,29 @@
+Steps for experiment
+
+Follow the instructions  given  below 
+
+1. On the screen, you will see a car  in green  color. 
+
+2. In the bottom there will be two action buttons "On" and "Off".
+
+3. To  start the  car  click  "On"  button.  To  stop  the car  click  "Off"  button.
+
+4. On the top of the screen you  will  see  periodically changing  signal  directing you to  Start" or "Stop"  the  car.
+
+5. This  signal will be displayed 4-times each after different time intervals.
+
+6. Your task is to  click  "On"  button to  start  car  when  signal  displays  "Start"  and  click  "Off"  button  to  stop  car  when  signal  displays  "Stop"  as  fast  as  possible.
+
+7. When you are ready  to start  the  simulation click on the "Start" button  below.
+
+8. Once clicked you will not be able to return to this page till the experiment is over.
+
+Note:
+
+1. In this experiment for consistency when START is displayed the circle at the top of the screen will be GREEN and when STOP is displayed it will be RED.
+
+2. For inconsistency when START is displayed the circle at the top of the screen will be RED and STOP is displayed it will be GREEN.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+To proceed  further  click on the SIMULATION tab on the top or to exit this experiment  click on HOME  on the top.

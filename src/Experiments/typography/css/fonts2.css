@@ -1,0 +1,535 @@
+/* Embedding ttf fonts */
+
+@font-face{
+    font-family: a;
+    src: url('fonts/A Sensible Armadillo.ttf');
+}
+
+@font-face{
+    font-family: b;
+    src: url('fonts/adamwarrenpro.ttf');
+}
+
+@font-face{
+    font-family: c;
+    src: url('fonts/ANGEL.ttf');
+}
+
+@font-face{
+    font-family: d;
+    src: url('fonts/ANGELTEARS.ttf'); /******************#############@@@@@@@@@@@@@@@@@@@****************/
+}
+
+@font-face{
+    font-family: e;
+    src: url('fonts/Architex.ttf');
+}
+
+@font-face{
+    font-family: f;
+    src: url('fonts/attack of the cucumbers.ttf');
+}
+
+@font-face{
+    font-family: g;
+    src: url('fonts/beaggressive.ttf');
+}
+
+@font-face{
+    font-family: h;
+    src: url('fonts/beneg.ttf');
+}
+
+@font-face{
+    font-family: i;
+    src: url('fonts/CalliGravity.ttf');
+}
+
+@font-face{
+    font-family: j;
+    src: url('fonts/CAROBTN.ttf');
+}
+
+@font-face{
+    font-family: k;
+    src: url('fonts/CATHSGBR.ttf');
+}
+
+@font-face{
+    font-family: l;
+    src: url('fonts/Eutemia.ttf');
+}
+
+@font-face{
+    font-family: m;
+    src: url('fonts/False_Advertising.ttf');
+}
+
+@font-face{
+    font-family: n;
+    src: url('fonts/MandroidBB.ttf');
+}
+
+@font-face{
+    font-family: o;
+    src: url('fonts/Markus Ink.ttf');
+}
+
+@font-face{
+    font-family: p;
+    src: url('fonts/Otto.ttf');
+}
+
+@font-face{
+    font-family: q;
+    src: url('fonts/Quirlycues.ttf');
+}
+
+@font-face{
+    font-family: r;
+    src: url('fonts/SANTO.ttf');
+}
+
+@font-face{
+    font-family: s;
+    src: url('fonts/SCRIPTIN.ttf');
+}
+
+@font-face{
+    font-family: t;
+    src: url('fonts/Vtks Dear Love.ttf');
+}
+
+@font-face{
+    font-family: u;
+    src: url('fonts/WC_Wunderbach_Rough.ttf');
+}
+
+
+/*Fancy Fonts*/
+
+
+.simul1{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: a; /* Embedding ttf fonts */
+    font-weight: bold;
+}
+
+.simul2{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: b; /* Embedding ttf fonts */
+    font-weight: bold;
+}
+
+.simul3{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 40px;
+    text-align: justify;
+    font-family: c; /* Embedding ttf fonts */
+}
+
+.simul4{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: d; /* Embedding ttf fonts */
+    font-weight: bold;
+}
+
+.simul5{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 25px;
+    text-align: justify;
+    font-family: e; /* Embedding ttf fonts */
+    font-weight: bold;
+}
+
+.simul6{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: f; /* Embedding ttf fonts */
+    font-weight: bold;
+}
+
+.simul7{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: g; /* Embedding ttf fonts */
+    font-weight: bold;
+}
+
+.simul8{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 30px;
+    text-align: justify;
+    font-family: h; /* Embedding ttf fonts */
+    font-weight: bold;
+}
+
+.simul9{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 25px;
+    text-align: justify;
+    font-family: i; /* Embedding ttf fonts */
+    font-weight: bold;
+}
+
+.simul10{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: j; /* Embedding ttf fonts */
+    font-weight: bold;
+}
+
+.simul11{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: k; /* Embedding ttf fonts */
+    font-weight: bold;
+}
+
+.simul12{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 25px;
+    text-align: justify;
+    font-family: l; /* Embedding ttf fonts */
+    font-weight: bold;
+}
+
+.simul13{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 40px;
+    text-align: justify;
+    font-family: m; /* Embedding ttf fonts */
+    font-weight: bold;
+}
+
+.simul14{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: n; /* Embedding ttf fonts */
+    font-weight: bold;
+}
+
+.simul15{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: o; /* Embedding ttf fonts */
+    font-weight: bold;
+}
+
+.simul16{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 40px;
+    text-align: justify;
+    font-family: p; /* Embedding ttf fonts */
+    font-weight: bold;
+}
+
+.simul17{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: q; /* Embedding ttf fonts */
+    font-weight: bold;
+}
+
+.simul18{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 30px;
+    text-align: justify;
+    font-family: r; /* Embedding ttf fonts */
+    font-weight: bold;
+}
+
+.simul19{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: s; /* Embedding ttf fonts */
+    font-weight: bold;
+}
+
+.simul20{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: t; /* Embedding ttf fonts */
+    font-weight: bold;
+}
+
+.simul21{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: u; /* Embedding ttf fonts */
+    font-weight: bold;
+}
+
+/*Different Colors*/
+
+.simulbt1{
+    padding: 10px;
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Arial; /* Embedding ttf fonts */
+    color: yellow;
+    background-color: dodgerblue;
+}
+
+.simulbt2{
+    padding: 10px;
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Arial; /* Embedding ttf fonts */
+    color: black;
+    background-color: white;
+}
+
+.simulbt3{
+    padding: 10px;
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Arial; /* Embedding ttf fonts */
+    color: blue;
+    background-color: red;
+}
+
+.simulbt4{
+    padding: 10px;
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Arial; /* Embedding ttf fonts */
+    color: white;
+    background-color: yellow;
+}
+
+.std1{
+    padding: 10px;
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Arial; /* Embedding ttf fonts */
+}
+
+/*Standard Font Types*/
+
+.std1a{
+    padding: 10px;
+    width: 406px;
+    height: auto;
+    float: left;
+    margin-left: 80px;
+    font-size: 12pt;
+    text-align: justify;
+    font-family: Calibri; /* Embedding ttf fonts */
+}
+
+.std2a{
+    padding: 10px;
+    width: 406px;
+    height: auto;
+    float: left;
+    margin-left: 80px;
+    font-size: 12pt;
+    text-align: justify;
+    font-family: Times New Roman; /* Embedding ttf fonts */
+}
+
+.std3a{
+    padding: 10px;
+    width: 406px;
+    height: auto;
+    float: left;
+    margin-left: 80px;
+    font-size: 12pt;
+    text-align: justify;
+    font-family: sans-serif; /* Embedding ttf fonts */
+}
+
+.std1b{
+    padding: 10px;
+    width: 406px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+    font-size: 12pt;
+    text-align: justify;
+    font-family: Calibri; /* Embedding ttf fonts */
+}
+
+.std2b{
+    padding: 10px;
+    width: 406px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+    font-size: 12pt;
+    text-align: justify;
+    font-family: Times New Roman; /* Embedding ttf fonts */
+}
+
+.std3b{
+    padding: 10px;
+    width: 406px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+    font-size: 12pt;
+    text-align: justify;
+    font-family: sans-serif; /* Embedding ttf fonts */
+}
+
+.std4{
+    padding: 10px;
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Arial; /* Embedding ttf fonts */
+}
+
+/*Mixed Font Types*/
+
+.mix1a{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Arial; /* Embedding ttf fonts */
+}
+
+.mix2a{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Arial; /* Embedding ttf fonts */
+}
+
+.mix3a{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Arial; /* Embedding ttf fonts */
+}
+
+.mix4a{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Arial; /* Embedding ttf fonts */
+}
+
+.mix1b{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: a; /* Embedding ttf fonts */
+    font-weight: bold;
+}
+
+.mix2b{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: b; /* Embedding ttf fonts */
+    font-weight: bold;
+}
+
+.mix3b{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: d; /* Embedding ttf fonts */
+    font-weight: bold;
+}
+
+.mix4b{
+    width: 824px;
+    height: auto;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: e; /* Embedding ttf fonts */
+    font-weight: bold;
+}

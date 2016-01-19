@@ -1,0 +1,156 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+   font-family: Helvetica;
+   font-size: 12px;
+   color:#2d3536;
+   position: relative;
+}
+
+img{
+   border: none;
+}
+
+a{
+   color: blue;
+   font-size: 12px;
+   text-decoration: none;
+}
+
+a:hover{
+   color: red;
+   font-size: 12px;
+   text-decoration: underline;
+}
+
+.D5 a{
+   color: blue;
+   font-size: 10px;
+   text-decoration: underline;
+}
+
+.container{
+   width: 1080px;
+   height: 625px;
+   margin-left: auto;
+   margin-right: auto;
+   
+   border: 25px solid black;
+}
+
+.D1{
+   width:1024px;
+   height: auto;
+   border:1px solid gray;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 5px;
+   margin-top: 20px;
+}
+
+.D2{
+   width:1024px;
+   height: 10px;
+   text-align: center;
+   border:1px solid gray;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+   padding: 5px;
+}
+
+.content{
+   width: 1034px;
+   height: 360px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+}
+
+.D3{
+   width: 319px;
+   height: 350px;
+   border:1px solid gray;
+   float: left;
+   text-align: justify;
+   padding: 5px;
+}
+
+.DI{
+   width: 319px;
+   height: 350px;
+   border:1px solid gray;
+   margin-left: 19px;
+   margin-right: 19px;
+   float: left;
+   text-align: justify;
+   padding: 5px;
+}
+
+.D4{
+   width: 319px;
+   height: 350px;
+   border:1px solid gray;
+   float: left;
+   text-align: justify;
+   padding: 5px;
+}
+
+.D5{
+   width:1024px;
+   height: 40px;
+   padding: 5px;
+   border:1px solid gray;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 20px;
+   margin-top: 20px;
+   text-align: center;
+}
+
+
+.btn{
+   width: 1050px;
+   height: 90px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   background: url('images/main-bg.gif') repeat;
+   position: relative;
+   font-size: 18px;
+}
+
+.txt{
+   width:auto;
+   height: auto;
+   padding: 10px;
+   border:2px #663300 solid;
+   float: left;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+
+.bcolor{
+   width:auto;
+   height: auto;
+   padding: 10px;
+   border:2px #663300 solid;
+   float: left;
+   margin-top: 10px;
+   margin-right: 10px;
+}
+
+.setcolor{
+   width:100px;
+   height:45px;
+   display:block;
+   margin-bottom:5px;
+   background-color: grey;
+   font-size:8;
+   border-width: 6px;
+}

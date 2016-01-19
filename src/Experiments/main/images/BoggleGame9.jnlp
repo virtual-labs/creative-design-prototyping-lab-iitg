@@ -1,0 +1,20 @@
+
+<jnlp spec="1.0+" codebase="http://www.cise.ufl.edu/~ss7/" href="http://www.cise.ufl.edu/~ss7/BoggleGame9.jnlp">
+  <information>
+    <title>BoggleGame - Sid & Swapnil</title>
+    <vendor>Siddharth Singh</vendor>
+    <homepage href="http://www.cise.ufl.edu/~ss7/"/>
+    <description>Boggle Game Client</description>
+    <description kind="short">Made as coursework for Concurrent Programming class</description>
+    <offline-allowed/>
+  </information>
+  <update check="timeout" policy="always"/>
+  <resources>
+    <j2se version="1.5+" />	
+    <jar href="http://www.cise.ufl.edu/~ss7/Boggle.jar" download="eager" main="false"/>
+  </resources>
+  <security>
+    <all-permissions/>
+  </security>
+  <application-desc />
+</jnlp>
