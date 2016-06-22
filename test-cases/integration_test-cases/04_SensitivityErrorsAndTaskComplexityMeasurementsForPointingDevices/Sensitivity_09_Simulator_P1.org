@@ -1,0 +1,28 @@
+* Author: Hrishikesh Malakar
+* Date Created: 13-06-2016
+* Environment
+  - OS: Windows 7,Ubuntu-16.04,CentOS-6,Windows 8
+  - Browsers: Firefox-42.0,Chrome-47.0,Chromium-45.0
+  - Bandwidth : 100Mbps
+  - Hardware Configuration:8GB RAM , 
+  - Processor:i7,i5
+
+* Objective
+  - To perfrom the experiment of "Sensitivity Errors and Task Complexity Measurements for Pointing Devices".
+
+* Pre conditions
+  - Refer to first test case 
+  
+* Post conditions
+   - Nil
+* Test Steps
+  1. Refer to Sensitivity_05_simulator_smk.org
+  2. Click on the "Start Simulation" link.
+  3. Click on the "View demo video here" link.
+ 
+* Expected result
+  1. Refer to Sensitivity_05_simulator_smk.org
+  2. A file "maze.exe" should be downloaded.
+  3. A video showing demo of the experiment should start.
+   
+* Review comments

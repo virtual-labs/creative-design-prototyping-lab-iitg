@@ -27,7 +27,7 @@
                     }, 
                     "department": "Department of Design", 
                     "institute": "IIT Guwahati", 
-                    "name": "Prof. Pradeep Gururaj Yammiyavar", 
+                    "name": "Prof. Pradeep G. Yammiyavar", 
                     "organization": "", 
                     "role": "Principal Investigator", 
                     "title": "", 
@@ -36,11 +36,11 @@
                 
             ], 
             "discipline": [
-                " Design"
+                " Department of Design"
             ], 
-            "id": "d01", 
-            "integration_level": 5, 
-            "name": "Creative Design,Prototyping and Experimental Simulation in Human Computer Interaction(HCI)", 
+            "id": "de01", 
+            "integration_level": 6, 
+            "name": "Creative Design, Prototyping and Experimental Simulation in Human Computer Interaction(HCI)", 
             "server-side": true, 
             "status": "Released", 
             "type": ""

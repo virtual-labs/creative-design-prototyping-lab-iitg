@@ -1,0 +1,30 @@
+* Author: Hrishikesh Malakar
+* Date Created: 13-06-2016
+* Environment
+  - OS: Windows 7,Ubuntu-16.04,CentOS-6,Windows 8
+  - Browsers: Firefox-42.0,Chrome-47.0,Chromium-45.0
+  - Bandwidth : 100Mbps
+  - Hardware Configuration:8GB RAM , 
+  - Processor:i7,i5
+
+* Objective
+  - To perfrom the experiment of Mobile Keypad Design.
+
+* Pre conditions
+  - Refer to first test case 
+  
+* Post conditions
+   - Nil
+* Test Steps
+  1. Refer to MobileKeypadDesign_05_simulator_smk.org
+  2. Click on the link "Download VB Control".
+  3. Click on the link "Start Simulation"
+
+ 
+* Expected result
+  1. Refer to MobileKeypadDesign_05_simulator_smk.org
+  2. An exe file should be downloaded.
+  3. The file "Keypad_4.0.exe" should be downloaded.
+  4. Perfrom the experiment as per instruction.
+
+* Review comments

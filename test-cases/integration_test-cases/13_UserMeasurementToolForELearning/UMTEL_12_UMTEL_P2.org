@@ -1,0 +1,30 @@
+* Author: Hrishikesh Malakar
+* Date Created: 14-06-2016
+* Environment
+  - OS: Windows 7,Ubuntu-16.04,CentOS-6,Windows 8
+  - Browsers: Firefox-42.0,Chrome-47.0,Chromium-45.0
+  - Bandwidth : 100Mbps
+  - Hardware Configuration:8GB RAM , 
+  - Processor:i7,i5
+
+* Objective
+  - To perfrom the experiment of Usability Measurement Tool for E-Learning ( UMTEL ).
+
+* Pre conditions
+  - Refer to first test case 
+  
+* Post conditions
+   - Nil
+* Test Steps
+  1. Refer to UMTEL_05_UMTEL_smk.org
+  2. With selecting all option under the "Content Ogranisation" page click on the "Click To Refresh"
+	 button under the "Find Website Score"Section.
+  3. Repeat step 2 for the rest of the section by selecting appropiate section.	 
+
+ 
+* Expected result
+  1. Refer to UMTEL_05_UMTEL_smk.org
+  2. The values of Score field and Level under the corrseponding section should change.
+  
+
+* Review comments

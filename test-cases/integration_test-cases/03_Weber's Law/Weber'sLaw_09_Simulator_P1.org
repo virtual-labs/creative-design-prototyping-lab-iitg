@@ -1,0 +1,33 @@
+* Author: Hrishikesh Malakar
+* Date Created: 13-06-2016
+* Environment
+  - OS: Windows 7,Ubuntu-16.04,CentOS-6,Windows 8
+  - Browsers: Firefox-42.0,Chrome-47.0,Chromium-45.0
+  - Bandwidth : 100Mbps
+  - Hardware Configuration:8GB RAM , 
+  - Processor:i7,i5
+
+* Objective
+  - To perfrom the experiment of Weber's Law.
+
+* Pre conditions
+  - Refer to first test case 
+  
+* Post conditions
+   - Nil
+* Test Steps
+  1. Refer to Weber'sLaw_05_simulator_smk.org
+  2. Click on the "Start" button in the "Spot expanding block and click" section.
+  3. Click on the "Reset" button in the "Spot expanding block and click" section.
+  4. Click on the "Start" button in the "Spot bigger circle" section.
+  5. Click on the "Reset" button in the "Spot bigger circle" section.
+  6. Click on the "Start" button in the "Spot color change" section.
+  7. Click on the "Reset" button in the "Spot color change" section.
+   
+ 
+* Expected result
+  1. Refer to Weber'sLaw_05_simulator_smk.org
+  2. The experimtent should start.
+  3. The values should reset.
+  4. Same results as mentioned in steps 2 and 3 for the other two experiments.
+* Review comments

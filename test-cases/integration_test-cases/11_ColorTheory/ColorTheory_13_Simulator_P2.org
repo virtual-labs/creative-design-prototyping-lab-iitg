@@ -1,0 +1,28 @@
+* Author: Hrishikesh Malakar
+* Date Created: 14-06-2016
+* Environment
+  - OS: Windows 7,Ubuntu-16.04,CentOS-6,Windows 8
+  - Browsers: Firefox-42.0,Chrome-47.0,Chromium-45.0
+  - Bandwidth : 100Mbps
+  - Hardware Configuration:8GB RAM , 
+  - Processor:i7,i5
+
+* Objective
+  - To perfrom the experiment of Color Theory.
+
+* Pre conditions
+  - Refer to first test case 
+  
+* Post conditions
+   - Nil
+* Test Steps
+  1. Refer to ColorTheory_07_simulator_smk.org
+  2. Click on the "Set Text Color" button by entering values as desired. 
+
+ 
+* Expected result
+  1. Refer to ColorTheory_07_simulator_smk.org
+  2. There should be modification in text or background color as per the applied color.
+  
+
+* Review comments

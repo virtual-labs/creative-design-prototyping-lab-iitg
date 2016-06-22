@@ -1,0 +1,28 @@
+* Author: Hrishikesh Malakar
+* Date Created: 14-06-2016
+* Environment
+  - OS: Windows 7,Ubuntu-16.04,CentOS-6,Windows 8
+  - Browsers: Firefox-42.0,Chrome-47.0,Chromium-45.0
+  - Bandwidth : 100Mbps
+  - Hardware Configuration:8GB RAM , 
+  - Processor:i7,i5
+
+* Objective
+  - To perfrom the experiment of Usability Measurement Tool for E-Learning ( UMTEL ).
+
+* Pre conditions
+  - Refer to first test case 
+  
+* Post conditions
+   - Nil
+* Test Steps
+  1. Refer to UMTEL_05_UMTEL_smk.org
+  2. Click on the "Exit UMTEL" link in the experiment page.
+  3. Click on the printer icon.
+ 
+* Expected result
+  1. Refer to UMTEL_05_UMTEL_smk.org
+  2. The page should be redirected to the previous page.
+  3. The print preview page with option for printing the page should open.
+  
+* Review comments
