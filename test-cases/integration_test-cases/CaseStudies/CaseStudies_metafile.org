@@ -1,0 +1,3 @@
+S.no		Test case link
+1. 	[[https://github.com/Virtual-Labs/creative-design-prototyping-lab-iitg/blob/master/test-cases/integration_test-cases/CaseStudies/CaseStudies_01_usuability_smk .org][CaseStudies_01_usuability_smk .org]]
+2. 	[[https://github.com/Virtual-Labs/creative-design-prototyping-lab-iitg/blob/master/test-cases/integration_test-cases/CaseStudies/CaseStudies_02_Theory_smk.org][CaseStudies_02_Theory_smk.org]]
