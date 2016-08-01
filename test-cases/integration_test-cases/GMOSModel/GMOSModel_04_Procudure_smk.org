@@ -27,7 +27,7 @@
 
 
 
- * Post conditions
+* Post conditions
 
 	- NIL
 
