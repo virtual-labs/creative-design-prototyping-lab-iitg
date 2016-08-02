@@ -22,7 +22,7 @@
 
 * Pre conditions
 
-       - Refer to first test case [[https://github.com/Virtual-Labs/creative-design-prototyping-lab-iitg/blob/master/test-cases/integration_test-cases/CaseStudies/CaseStudies_01_usuability_smk%20.org][aseStudies_01_usuability_smk.org]]
+       - Refer to first test case [[https://github.com/Virtual-Labs/creative-design-prototyping-lab-iitg/blob/master/test-cases/integration_test-cases/CaseStudies/CaseStudies_01_usuability_smk%20.org][CaseStudies_01_usuability_smk.org]]
 
 
 
