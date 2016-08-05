@@ -11,7 +11,8 @@
   - To perfrom the experiment of Prototype designing of control panel for home appliances.
 
 * Pre conditions
-  - Refer to first test case 
+
+	- Refer to first test case [[https://github.com/Virtual-Labs/creative-design-prototyping-lab-iitg/blob/master/test-cases/integration_test-cases/Domestic/Domestic_01_usuability_smk%20.org][Domestic_01_usuability_smk.org]] 
   
 * Post conditions
    - Nil
