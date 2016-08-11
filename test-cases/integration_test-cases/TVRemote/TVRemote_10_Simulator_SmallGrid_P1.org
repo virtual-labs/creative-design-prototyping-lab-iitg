@@ -11,7 +11,8 @@
   - To perfrom the experiment of Prototyping of TV Remote Control Panel.
 
 * Pre conditions
-  - Refer to first test case 
+
+	- Refer to first test case [[https://github.com/Virtual-Labs/creative-design-prototyping-lab-iitg/blob/master/test-cases/integration_test-cases/TVRemote/TVRemote_01_usability_smk%20.org][TVRemote_01_usability_smk.org]]
   
 * Post conditions
    - Nil
