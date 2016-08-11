@@ -31,7 +31,7 @@ Pre conditions
 
 	3. Select Creative Design, Prototyping & Experiential Simulation In Human Computer Interaction (HCI) Lab, a home page will be displayed and click on List of experiments link,where a list of experiments will be displayed on the screen.
 
-	4. Select “Introduction” link.
+	4. Select â€œIntroductionâ€ link.
 
 
 
