@@ -34,7 +34,7 @@
 
 * Test Steps
 
-	1. Click on the UMTEL link
+	1. Click on the experiment link
 
 	2. Verify whether the content present in the page is having any distortions and junk characters
 
