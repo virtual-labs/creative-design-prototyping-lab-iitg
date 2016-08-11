@@ -1,39 +1,38 @@
-Author: Hrishikesh Malakar
+* Author: Hrishikesh Malakar
 
-Date Created: 02 June 2016
-
-
-Enviroment
-
-	OS: Windows 7,Ubuntu-16.04,CentOS-6,Windows 8
-	Browsers: Firefox-42.0,Chrome-49.0,Chromium-52.0,IE-8
-	Bandwidth : 100Mbps
-	Hardware Configuration:8GB RAM ,4GB RAM
-	Processor:i7, i3 ,i5
+* Date Created: 02 June 2016
 
 
+* Enviroment
 
-Objective
-
-	To view the available experiments in Introduction.
+	- OS: Windows 7,Ubuntu-16.04,CentOS-6,Windows 8
+	- Browsers: Firefox-42.0,Chrome-49.0,Chromium-52.0,IE-8
+	- Bandwidth : 100Mbps
+	- Hardware Configuration:8GB RAM ,4GB RAM
+	- Processor:i7, i3 ,i5
 
 
 
+* Objective
 
-Pre conditions
-
-	Refer to first test case Introduction_01_usuability_smk.org
+	- To view the available experiments in Introduction.
 
 
 
 
-Post conditions
+* Pre conditions
 
-	NIL
+	- Refer to first test case [[https://github.com/Virtual-Labs/creative-design-prototyping-lab-iitg/blob/master/test-cases/integration_test-cases/Introduction/Introduction_01_usability_smk.org][Introduction_01_usability_smk.org]]
 
 
 
-Test Steps
+* Post conditions
+
+	- NIL
+
+
+
+* Test Steps
 
 	1. Click on the Overall Feedback Form link
 
@@ -42,7 +41,7 @@ Test Steps
 
 
 
-Expected Result
+* Expected Result
 
 	1. Overall Feedback Form page should be opened
 
@@ -50,7 +49,7 @@ Expected Result
 	
 
 
-Review Commments
+* Review Commments
 
 	
 
