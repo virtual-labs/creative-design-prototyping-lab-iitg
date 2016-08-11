@@ -11,7 +11,8 @@
   - To perfrom the experiment of "Sensitivity Errors and Task Complexity Measurements for Pointing Devices".
 
 * Pre conditions
-  - Refer to first test case 
+
+	- Refer to first test case [[https://github.com/Virtual-Labs/creative-design-prototyping-lab-iitg/blob/master/test-cases/integration_test-cases/Sensitivity/Sensitivity_01_usability_smk%20.org][Sensitivity_01_usability_smk.org]]
   
 * Post conditions
    - Nil
