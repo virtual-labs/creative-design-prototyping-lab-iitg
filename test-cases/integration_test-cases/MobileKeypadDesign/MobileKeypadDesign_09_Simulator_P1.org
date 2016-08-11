@@ -11,7 +11,9 @@
   - To perfrom the experiment of Mobile Keypad Design.
 
 * Pre conditions
-  - Refer to first test case 
+
+	Refer to first test case [[https://github.com/Virtual-Labs/creative-design-prototyping-lab-iitg/blob/master/test-cases/integration_test-cases/MobileKeypadDesign/MobileKeypadDesign_01_usability_smk%20.org][MobileKeypadDesign_01_usability_smk.org]]
+
   
 * Post conditions
    - Nil
