@@ -11,7 +11,8 @@
   - To perfrom the experiment of Effect of Typography design on Readability.
 
 * Pre conditions
-  - Refer to first test case 
+
+	- Refer to first test case [[https://github.com/Virtual-Labs/creative-design-prototyping-lab-iitg/blob/master/test-cases/integration_test-cases/Topography/Topography_01_usability_smk%20.org][Topogrpahy_01_usability_smk.org]] 
   
 * Post conditions
    - Nil
