@@ -17,12 +17,12 @@
 * Post conditions
    - Nil
 * Test Steps
-  1. Refer to HickHayman'sLaw_05_simulator_smk.org
+  1. Refer to HickHayman'sLaw_05_Simulator_smk.org
   2. Double click on the "RED" button to start the experiment. 
 
  
 * Expected result
-  1. Refer to HickHayman'sLaw_05_simulator_smk.org
+  1. Refer to HickHayman'sLaw_05_Simulator_smk.org
   2. The experiment should start.
   3. Perform the experiment as per the instruction.
 
