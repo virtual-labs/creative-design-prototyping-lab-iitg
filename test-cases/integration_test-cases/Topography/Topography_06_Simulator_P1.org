@@ -19,12 +19,12 @@
    - Nil
 
 * Test Steps
-  1. Refer to Topography_05_simulator_smk.org
+  1. Refer to Topography_05_Simulator_smk.org
   2. Double click on the "Click Here" link. 
 
  
 * Expected result
-  1. Refer to Topography_05_simulator_smk.org
+  1. Refer to Topography_05_Simulator_smk.org
   2. The experiment should page should open.
   3. Perform the experiment as per the instruction.
 
