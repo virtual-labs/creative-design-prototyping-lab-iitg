@@ -15,7 +15,7 @@
 
 * Objective
 
-	- To view the available experiments in Introduction.
+	- To perform the simulator of card sorting technique.
 
 
 
