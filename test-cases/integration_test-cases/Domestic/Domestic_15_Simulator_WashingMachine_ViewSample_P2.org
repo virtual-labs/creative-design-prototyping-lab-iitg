@@ -17,12 +17,12 @@
 * Post conditions
    - Nil
 * Test Steps
-  1. Refer to Domestic_06_simulator_smk.org
+  1. Refer to Domestic_06_Simulator_smk.org
   2. Click on the "View Sample Layout" link.
 
  
 * Expected result
-  1. Refer to Domestic_06_simulator_smk.org
+  1. Refer to Domestic_06_Simulator_smk.org
   2. A sample design of a Washning Machine should be dispalyed
 
 * Review comments
