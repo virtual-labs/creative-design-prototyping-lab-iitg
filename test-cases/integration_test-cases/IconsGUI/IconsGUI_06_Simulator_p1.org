@@ -8,7 +8,7 @@
   - Processor:i7,i5
 
 * Objective
-  - To view the procedure of this experiment..
+  - To perform the simulator of this experiment.
 
 * Pre conditions
 
@@ -17,12 +17,12 @@
 * Post conditions
    - Nil
 * Test Steps
-  1. Refer to IconsGUI_06_simulator_smk.org
+  1. Refer to IconsGUI_06_Simulator_smk.org
   2. Click on the "http://www.iconarchive.com/search?q=USB+drive" link.
   3. Click on the link "Introduction to icon designing using Inkscape (pdf)"
  
 * Expected result
-  1. Refer to IconsGUI_06_simulator_smk.org
+  1. Refer to IconsGUI_06_Simulator_smk.org
   2. The page corresponding to the link should open.
   3. A pdf file should be downloaded.
 
