@@ -17,13 +17,13 @@
 * Post conditions
    - Nil
 * Test Steps
-  1. Refer to Domestic_06_simulator_smk.org
+  1. Refer to Domestic_06_Simulator_smk.org
   2. Without checking any check box in the "Evaluate Design" Section
      click "Calculate Design Appropiateness"
 
  
 * Expected result
-  1. Refer to Domestic_06_simulator_smk.org
+  1. Refer to Domestic_06_Simulator_smk.org
   2. Result should be dispalyed as 0/16.
 
 * Review comments
