@@ -15,7 +15,7 @@
 
 * Objective
 
-	- To view the available experiments in Introduction.
+	- To view the simulator of this experiment.
 
 
 
