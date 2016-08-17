@@ -8,7 +8,7 @@
   - Processor:i7,i5
 
 * Objective
-  - To perfrom the experiment of Fitt's Law.
+  - To perfrom the experiment of Serial Position Effect.
 
 * Pre conditions
 
@@ -17,12 +17,12 @@
 * Post conditions
    - Nil
 * Test Steps
-  1. Refer to Fitt'sLaw_05_simulator_smk.org
+  1. Refer to SerialPositionEffect_05_simulator_smk.org
   2. Click on the circle.
 
  
 * Expected result
-  1. Refer to Fitt'sLaw_05_simulator_smk.org
+  1. Refer to SerialPositionEffect_simulator_smk.org
   2. The experiment for EXPERIMENT -  A (Color Sequence)should open.
   3. Perfrom the experiment as per instruction.
   4. The experiment for EXPERIMENT -  B (Word Sequence)should open.
