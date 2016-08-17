@@ -17,12 +17,12 @@
 * Post conditions
    - Nil
 * Test Steps
-  1. Refer to TVRemote_06_simulator_smk.org
+  1. Refer to TVRemote_06_Simulator_smk.org
   2. Click on the "Freez/Unfreez" link in the experiment page.
   3. Click on the "Freez/Unfreez" link once again.
  
 * Expected result
-  1. Refer to TVRemote_06_simulator_smk.org
+  1. Refer to TVRemote_06_Simulator_smk.org
   2. The workspace will be freezed, no work can be done here.
   3. The workspace will be unfreezed and work can be continued.
 * Review comments
