@@ -8,7 +8,7 @@
   - Processor:i7,i5
 
 * Objective
-  - To perfrom the experiment of Icons in Graphical User Interfaces(GUI).
+  - To view the procedure of this experiment..
 
 * Pre conditions
 
