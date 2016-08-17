@@ -8,7 +8,7 @@
   - Processor:i7,i5
 
 * Objective
-  - To perfrom the experiment of Fitt's Law.
+  - To perfrom the experiment of card sorting technique.
 
 * Pre conditions
 
@@ -22,7 +22,7 @@
 
  
 * Expected result
-  1. Refer to Fitt'sLaw_05_simulator_smk.org
+  1. Refer to Card_05_simulator_smk.org
   2. The experiment page should open.
   3. Perfrom the experiment as per instruction.
 
