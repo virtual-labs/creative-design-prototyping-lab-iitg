@@ -15,7 +15,7 @@
 
 * Objective
 
-	- To view the available experiments in Introduction.
+	- To view the assignment of this experiment.
 
 
 
@@ -49,7 +49,7 @@
 	
 
 
-* Review Commments
+* Review Comments
 
 	
 
