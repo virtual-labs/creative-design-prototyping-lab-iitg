@@ -11,12 +11,14 @@
   - To perfrom the experiment of Weber's Law.
 
 * Pre conditions
-  - Refer to first test case 
+
+	Refer to first test case [[https://github.com/Virtual-Labs/creative-design-prototyping-lab-iitg/blob/master/test-cases/integration_test-cases/Weber'sLaw/Weber'sLaw_01_usuability_smk%20.org][Weber'sLaw_01_usuability_smk.org]]
+
   
 * Post conditions
    - Nil
 * Test Steps
-  1. Refer to Weber'sLaw_05_simulator_smk.org
+  1. Refer to Weber'sLaw_05_Simulator_smk.org
   2. Click on the "Start" button in the "Spot expanding block and click" section.
   3. Click on the "Reset" button in the "Spot expanding block and click" section.
   4. Click on the "Start" button in the "Spot bigger circle" section.
@@ -26,7 +28,7 @@
    
  
 * Expected result
-  1. Refer to Weber'sLaw_05_simulator_smk.org
+  1. Refer to Weber'sLaw_05_Simulator_smk.org
   2. The experimtent should start.
   3. The values should reset.
   4. Same results as mentioned in steps 2 and 3 for the other two experiments.
