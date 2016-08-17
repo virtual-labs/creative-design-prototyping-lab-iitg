@@ -17,12 +17,12 @@
 * Post conditions
    - Nil
 * Test Steps
-  1. Refer to Domestic_06_simulator_smk.org
+  1. Refer to Domestic_06_Simulator_smk.org
   2. Click on the "Click Here" link.
 
  
 * Expected result
-  1. Refer to Domestic_06_simulator_smk.org
+  1. Refer to Domestic_06_Simulator_smk.org
   2. The experiment page should open.
   3. Perfrom the experiment as per instruction.
 
