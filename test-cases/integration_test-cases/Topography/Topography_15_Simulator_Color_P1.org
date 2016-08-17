@@ -17,12 +17,12 @@
 * Post conditions
    - Nil
 * Test Steps
-  1. Refer to Topography_05_simulator_smk.org
+  1. Refer to Topography_05_Simulator_smk.org
   2. Click on the "Go Back To Simulation Page" link in the last experiment page. 
 
  
 * Expected result
-  1. Refer to Topography_05_simulator_smk.org
+  1. Refer to Topography_05_Simulator_smk.org
   2. The simulator page should open .
    
 * Review comments
