@@ -15,7 +15,7 @@
 
 * Objective
 
-	- To view the available experiments in Introduction.
+	- To view the design task of this experiment.
 
 
 
@@ -34,7 +34,7 @@
 
 * Test Steps
 
-	1. Click on the UMTEL link
+	1. Click on the Design Task link
 
 	2. Verify whether the content present in the page is having any distortions and junk characters
 
@@ -43,13 +43,13 @@
 
 * Expected Result
 
-	1. Simulator page should be opened
+	1. Design Task page should be opened
 
 	2. Content should be present with no distortions and Junk characters
 	
 
 
-* Review Commments
+* Review Comments
 
 	
 
