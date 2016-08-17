@@ -17,12 +17,12 @@
 * Post conditions
    - Nil
 * Test Steps
-  1. Refer to STM_05_simulator_smk.org
+  1. Refer to STM_05_Simulator_smk.org
   2. Click on the "Next Slide" link without selection "Same" and "Different".
 
  
 * Expected result
-  1. Refer to STM_05_simulator_smk.org
+  1. Refer to STM_05_Simulator_smk.org
   2. The timer should not stop.
   
 
