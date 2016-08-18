@@ -1,0 +1,52 @@
+* Author: ABINASHA BORAH
+* Date Created: 01 August 2016
+* Environment
+ - OS: Windows 7,Ubuntu-16.04,CentOS-6
+ - Browsers: Firefox-42.0,Chrome-47.0,Chromium-45.0
+ - Bandwidth : 100Mbps
+ - Hardware Configuration:8GB RAM ,
+ - Processor:i7
+
+* Objective
+
+    To perform the Experiment of the Mobile keypad design
+
+* Pre conditions
+
+ 1. Open the url vlabs.ac.in and vlabs home page is displayed
+
+ 2. Click on IIT-Guwahati and a list of labs is displayed on the screen
+
+ 3. Select Creative Design, Prototyping & Experiential Simulation In Human Computer Interaction (HCI) Lab, a home page will be displayed and click on List of experiments link,where a list of experiments will be displayed on the screen.
+
+ 4. Select “Mobile Keypad Design” experiment.
+
+* Post conditions
+
+    Nil
+
+* Test Steps
+
+ 1. Click on the Simulator link
+
+ 2. Read the instructions before starting the experiment
+
+ 3. Click on "Download VB Control" link and "Start Simulation" link
+
+ 4. Run the exe file present in the zip folder
+
+ 5. Enable the flash player on your browser to perform the experiment
+
+
+
+* Expected result
+
+ 1. Simulator page should be opened
+
+ 2. The experiment page is displayed on the screen
+
+ 3. The exe file should get downloaded in the system. Extract the zip file after it is downloaded
+   
+ 4. The experiments should run properly.
+
+* Review comments

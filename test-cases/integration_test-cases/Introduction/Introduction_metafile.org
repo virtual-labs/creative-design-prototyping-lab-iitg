@@ -1,5 +1,5 @@
 S.no		Test case link
-1. 	[[https://github.com/Virtual-Labs/creative-design-prototyping-lab-iitg/blob/master/test-cases/integration_test-cases/Introduction/Introduction_01_usuability_smk.org][Introduction_01_usuability_smk.org]]
+1. 	[[https://github.com/Virtual-Labs/creative-design-prototyping-lab-iitg/blob/master/test-cases/integration_test-cases/Introduction/Introduction_01_usability_smk.org][Introduction_01_usability_smk.org]]
 2. 	[[https://github.com/Virtual-Labs/creative-design-prototyping-lab-iitg/blob/master/test-cases/integration_test-cases/Introduction/Introduction_02_Introduction_smk.org][Introduction_02_Introduction_smk.org]]
 3. 	[[https://github.com/Virtual-Labs/creative-design-prototyping-lab-iitg/blob/master/test-cases/integration_test-cases/Introduction/Introduction_03_Experiments_smk.org][Introduction_03_Experiments_smk.org]]
 4. 	[[https://github.com/Virtual-Labs/creative-design-prototyping-lab-iitg/blob/master/test-cases/integration_test-cases/Introduction/Introduction_04_People_smk.org][Introduction_04_People_smk.org]]
